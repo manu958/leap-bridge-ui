@@ -38,6 +38,7 @@ export default function Header() {
               {/* Dropdown */}
               <div className="relative group">
                 <button className="text-[var(--lgreen)] text-lg px-6 py-4 flex items-center">
+                  
                   Home
                   {/* <svg
                     className="ml-1 w-4 h-4"
@@ -78,6 +79,7 @@ export default function Header() {
 
               {/* Dropdown */}
               <div className="relative group">
+                 <Link href="/pages/about">
                 <button className="text-[var(--lgreen)] text-lg px-6 py-4 flex items-center">
                   About Us
                   {/* <svg
@@ -94,6 +96,7 @@ export default function Header() {
                     />
                   </svg> */}
                 </button>
+                </Link>
 {/* 
                  <div className="absolute left-0 mt-0 w-40 bg-[var(--lgreen2)] shadow-lg border border-[#1b323333] rounded-[12px] opacity-0 invisible group-hover:opacity-100 group-hover:visible transition duration-200 overflow-hidden">
                   <Link
@@ -118,7 +121,7 @@ export default function Header() {
               </div>
 
               {/* Dropdown */}
-              <div className="relative group">
+              <div className="relative group ">
                 <button className="text-[var(--lgreen)] text-lg px-6 py-4 flex items-center">
                   Services
                   <svg
@@ -137,7 +140,7 @@ export default function Header() {
                 </button>
 
                 {/* Dropdown Menu */}
-                 <div className="absolute left-0 mt-0 w-40 bg-[var(--lgreen2)] shadow-lg border border-[#1b323333] rounded-[12px] opacity-0 invisible group-hover:opacity-100 group-hover:visible transition duration-200 overflow-hidden">
+                 <div className="absolute left-0 mt-0 w-[260px] bg-[var(--lgreen2)] shadow-lg border border-[#1b323333] rounded-[12px] opacity-0 invisible group-hover:opacity-100 group-hover:visible transition duration-200 overflow-hidden">
                   <Link
                     href="/services/web"
                     className="block px-4 py-2 text-gray-700 hover:bg-[#1b323314]"

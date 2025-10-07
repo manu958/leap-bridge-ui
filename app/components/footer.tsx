@@ -78,7 +78,7 @@ export default function Footer() {
                         {/* <button className="bg-[#cde8d9] text-[#1b3233]  px-6 py-3 rounded-full shadow-md hover:opacity-90 transition duration-300">
                             Buy this template – $129
                         </button> */}
-                        <Link href="#" target="_blank" className="flex justify-center items-center h-[52px] px-[32px] rounded-[50px] bg-[var(--lgreen)] text-[var(--dgreen)] font-normal transition-colors duration-200 hover:bg-[var(--lgreen2)] text-[20px]">Buy this template - $129</Link>
+                        <Link href="#" target="_blank" className="flex justify-center items-center h-[52px] px-[32px] rounded-[50px] bg-[var(--lgreen)] text-[var(--dgreen)] font-normal transition-colors duration-200 hover:bg-[var(--lgreen2)] text-[20px]">Schedule Appointment</Link>
                     </div>
 
                     <div className="right-bottom-footer">
@@ -131,16 +131,6 @@ export default function Footer() {
                     </div>
 
                 </div>
-
-                {/* Bottom note */}
-                {/* <div className="border-t border-gray-700 py-6 text-sm flex flex-col sm:flex-row justify-between items-center">
-                    <p className="text-[#CEEAD5]">
-                        Template designed with love by <Link href="#" className="underline hover:text-white">Wavesdesign</Link>, powered by <Link href="#" className="underline hover:text-white">Webflow</Link>
-                    </p>
-                    <Link href="#" className="underline hover:text-white mt-3 sm:mt-0">
-                        See all templates
-                    </Link>
-                </div> */}
 
 
                 <div className="flex md:flex-row flex-col justify-between items-center mt-20 pt-10 text-base border-t border-[var(--lgreen)]">
