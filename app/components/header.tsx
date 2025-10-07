@@ -1,4 +1,3 @@
-
 "use client";
 import { useState } from "react";
 import Image from "next/image";
@@ -11,220 +10,7 @@ export default function Header() {
   const [caseStudiesOpen, setCaseStudiesOpen] = useState(false);
 
   return (
-    // <header
-    //   className={`sticky top-0 z-50 bg-[var(--dgreen)] border-b border-gray-700 ${satoshi.className}`}
-    // >
-    //   <nav aria-label="Global" className="mx-auto flex max-w-[1600px] items-center justify-between md:px-[24px] px-[12px] min-h-[82px]">
-    //     <div className="flex lg:flex-1">
-    //       <Link href="#">
-    //         <span className="sr-only">Your Company</span>
-    //         <Image
-    //           src="\assests\header\images\665d580d007277205ba132e1_LogoLight.svg"
-    //           alt="Logo"
-    //           width={250}
-    //           height={32}
-    //           className="h-[20px] w-auto"
-    //         />
-    //       </Link>
-    //     </div>
-
-    //     {/* Mobile menu button */}
-    //     <div className="flex lg:hidden">
-    //       <button
-    //         type="button"
-    //         onClick={() => setMobileMenuOpen(true)}
-    //         className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-400"
-    //       >
-    //         <span className="sr-only">Open main menu</span>
-    //         <svg
-    //           viewBox="0 0 24 24"
-    //           fill="none"
-    //           stroke="currentColor"
-    //           strokeWidth="1.5"
-    //           aria-hidden="true"
-    //           className="size-6"
-    //         >
-    //           <path
-    //             d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
-    //             strokeLinecap="round"
-    //             strokeLinejoin="round"
-    //           />
-    //         </svg>
-    //       </button>
-    //     </div>
-
-    //     {/* Desktop Menu */}
-    //     <div className="hidden lg:flex lg:gap-x-12 text-[20px]  text-[#CEEAD5]">
-    //       <Link href="#">Homepages</Link>
-    //       <Link href="#">About</Link>
-    //       <Link href="#">Other</Link>
-    //       <Link href="#">Template</Link>
-
-    //       {/* Case Studies Dropdown */}
-    //       <div className="relative">
-    //         <button
-    //           onClick={() => setCaseStudiesOpen(!caseStudiesOpen)}
-    //           className="flex items-center gap-x-1"
-    //         >
-    //           Case Studies
-    //           <svg
-    //             viewBox="0 0 20 20"
-    //             fill="currentColor"
-    //             aria-hidden="true"
-    //             className="size-5 text-gray-500"
-    //           >
-    //             <path
-    //               fillRule="evenodd"
-    //               d="M5.23 7.21a.75.75 0 0 1 1.06 0L10 
-    //               10.92l3.72-3.71a.75.75 0 1 1 
-    //               1.06 1.06l-4.25 
-    //               4.25a.75.75 0 0 1-1.06 
-    //               0L5.23 8.27a.75.75 0 0 1 0-1.06Z"
-    //               clipRule="evenodd"
-    //             />
-    //           </svg>
-    //         </button>
-    //         {caseStudiesOpen && (
-    //           <div className="absolute left-0 mt-0 w-48 rounded-md bg-lgreen shadow-lg ring-1 ring-white/10">
-    //             <Link
-    //               href="#"
-    //               className="block px-4 py-2 text-sm text-white hover:bg-white/10"
-    //             >
-    //               Case Study 1
-    //             </Link>
-    //             <Link
-    //               href="#"
-    //               className="block px-4 py-2 text-sm text-white hover:bg-white/10"
-    //             >
-    //               Case Study 2
-    //             </Link>
-    //             <Link
-    //               href="#"
-    //               className="block px-4 py-2 text-sm text-white hover:bg-white/10"
-    //             >
-    //               Case Study 3
-    //             </Link>
-    //           </div>
-    //         )}
-    //       </div>
-
-    //       <Link href="#">Contact Us</Link>
-    //     </div>
-    //   </nav>
-
-    //   {/* Mobile Menu */}
-    //   {mobileMenuOpen && (
-    //     <div className="lg:hidden fixed inset-0 z-50 bg-lgreen p-6">
-    //       <div className="flex items-center justify-between">
-    //         <Link href="#" className="-m-1.5 p-1.5">
-    //           <Image
-    //             src="\assests\header\images\665d580d007277205ba132e1_LogoLight.svg"
-    //             alt="Logo"
-    //             width={200}
-    //             height={100}
-    //           />
-    //         </Link>
-    //         <button
-    //           type="button"
-    //           onClick={() => setMobileMenuOpen(false)}
-    //           className="-m-2.5 rounded-md p-2.5 text-gray-400"
-    //         >
-    //           <span className="sr-only">Close menu</span>
-    //           <svg
-    //             viewBox="0 0 24 24"
-    //             fill="none"
-    //             stroke="currentColor"
-    //             strokeWidth="1.5"
-    //             aria-hidden="true"
-    //             className="size-6"
-    //           >
-    //             <path
-    //               d="M6 18 18 6M6 6l12 12"
-    //               strokeLinecap="round"
-    //               strokeLinejoin="round"
-    //             />
-    //           </svg>
-    //         </button>
-    //       </div>
-
-    //       <div className="mt-6 space-y-2">
-    //         <Link
-    //           href="#"
-    //           className="block rounded-lg px-3 py-2 text-base font-semibold text-white hover:bg-white/5"
-    //         >
-    //           Home
-    //         </Link>
-    //         <Link
-    //           href="#"
-    //           className="block rounded-lg px-3 py-2 text-base font-semibold text-white hover:bg-white/5"
-    //         >
-    //           About
-    //         </Link>
-    //         <Link
-    //           href="#"
-    //           className="block rounded-lg px-3 py-2 text-base font-semibold text-white hover:bg-white/5"
-    //         >
-    //           Career
-    //         </Link>
-
-    //         {/* Mobile Case Studies Dropdown */}
-    //         <button
-    //           onClick={() => setCaseStudiesOpen(!caseStudiesOpen)}
-    //           className="flex w-full items-center justify-between rounded-lg px-3 py-2 text-base font-semibold text-white hover:bg-white/5"
-    //         >
-    //           Case Studies
-    //           <svg
-    //             viewBox="0 0 20 20"
-    //             fill="currentColor"
-    //             aria-hidden="true"
-    //             className="size-5"
-    //           >
-    //             <path
-    //               fillRule="evenodd"
-    //               d="M5.22 8.22a.75.75 0 0 1 1.06 
-    //               0L10 11.94l3.72-3.72a.75.75 
-    //               0 1 1 1.06 1.06l-4.25 
-    //               4.25a.75.75 0 0 1-1.06 
-    //               0L5.22 9.28a.75.75 
-    //               0 0 1 0-1.06Z"
-    //               clipRule="evenodd"
-    //             />
-    //           </svg>
-    //         </button>
-    //         {caseStudiesOpen && (
-    //           <div className="ml-4 space-y-2">
-    //             <Link
-    //               href="#"
-    //               className="block rounded-lg px-3 py-2 text-sm text-white hover:bg-white/5"
-    //             >
-    //               Case Study 1
-    //             </Link>
-    //             <Link
-    //               href="#"
-    //               className="block rounded-lg px-3 py-2 text-sm text-white hover:bg-white/5"
-    //             >
-    //               Case Study 2
-    //             </Link>
-    //             <Link
-    //               href="#"
-    //               className="block rounded-lg px-3 py-2 text-sm text-white hover:bg-white/5"
-    //             >
-    //               Case Study 3
-    //             </Link>
-    //           </div>
-    //         )}
-
-    //         <Link
-    //           href="#"
-    //           className="block rounded-lg px-3 py-2 text-base font-semibold text-white hover:bg-white/5"
-    //         >
-    //           Contact Us
-    //         </Link>
-    //       </div>
-    //     </div>
-    //   )}
-    // </header>
-    <header className="sticky top-0 z-50 ">
+    <header className={`sticky top-0 z-50 ${satoshi.className}`}>
       <nav className="bg-[var(--dgreen)] border-b border-gray-700">
         {/* mx-auto flex max-w-[1600px] items-center justify-between min-h-[82px] */}
         <div className="max-w-[1600px] mx-auto  md:px-[24px] px-[12px]">
@@ -232,11 +18,11 @@ export default function Header() {
             {/* Logo */}
             <Link href="/" className="text-xl font-bold text-gray-800">
               <Image
-                src="\assests\header\images\665d580d007277205ba132e1_LogoLight.svg"
+                src="/assests/header/images/leap bridge consulting logo.svg"
                 alt="Logo"
-                width={250}
-                height={32}
-                className="h-[20px] w-auto"
+                width={500}
+                height={100}
+                className="h-[50px] w-auto"
               />
             </Link>
 
@@ -252,8 +38,8 @@ export default function Header() {
               {/* Dropdown */}
               <div className="relative group">
                 <button className="text-[var(--lgreen)] text-lg px-6 py-4 flex items-center">
-                  Homepages
-                  <svg
+                  Home
+                  {/* <svg
                     className="ml-1 w-4 h-4"
                     fill="none"
                     stroke="currentColor"
@@ -265,11 +51,10 @@ export default function Header() {
                       strokeWidth={2}
                       d="M19 9l-7 7-7-7"
                     />
-                  </svg>
+                  </svg> */}
                 </button>
 
-                {/* Dropdown Menu */}
-                 <div className="absolute left-0 mt-0 w-40 bg-[var(--lgreen2)] shadow-lg border border-[#1b323333] rounded-[12px] opacity-0 invisible group-hover:opacity-100 group-hover:visible transition duration-200 overflow-hidden">
+                 {/* <div className="absolute left-0 mt-0 w-40 bg-[var(--lgreen2)] shadow-lg border border-[#1b323333] rounded-[12px] opacity-0 invisible group-hover:opacity-100 group-hover:visible transition duration-200 overflow-hidden">
                   <Link
                     href="/services/web"
                     className="block px-4 py-2 text-gray-700 hover:bg-[#1b323314]"
@@ -288,14 +73,14 @@ export default function Header() {
                   >
                     Home C
                   </Link>
-                </div>
+                </div> */}
               </div>
 
               {/* Dropdown */}
               <div className="relative group">
                 <button className="text-[var(--lgreen)] text-lg px-6 py-4 flex items-center">
-                  About
-                  <svg
+                  About Us
+                  {/* <svg
                     className="ml-1 w-4 h-4"
                     fill="none"
                     stroke="currentColor"
@@ -307,16 +92,15 @@ export default function Header() {
                       strokeWidth={2}
                       d="M19 9l-7 7-7-7"
                     />
-                  </svg>
+                  </svg> */}
                 </button>
-
-                {/* Dropdown Menu */}
+{/* 
                  <div className="absolute left-0 mt-0 w-40 bg-[var(--lgreen2)] shadow-lg border border-[#1b323333] rounded-[12px] opacity-0 invisible group-hover:opacity-100 group-hover:visible transition duration-200 overflow-hidden">
                   <Link
                     href="/services/web"
                     className="block px-4 py-2 text-gray-700 hover:bg-[#1b323314]"
                   >
-                    About A
+                    About LBC &Founder’s 
                   </Link>
                   <Link
                     href="/services/mobile"
@@ -330,13 +114,13 @@ export default function Header() {
                   >
                     About C
                   </Link>
-                </div>
+                </div> */}
               </div>
 
               {/* Dropdown */}
               <div className="relative group">
                 <button className="text-[var(--lgreen)] text-lg px-6 py-4 flex items-center">
-                  Other
+                  Services
                   <svg
                     className="ml-1 w-4 h-4"
                     fill="none"
@@ -358,19 +142,25 @@ export default function Header() {
                     href="/services/web"
                     className="block px-4 py-2 text-gray-700 hover:bg-[#1b323314]"
                   >
-                    Other A
+                    Sales Process Consulting
                   </Link>
                   <Link
                     href="/services/mobile"
                     className="block px-4 py-2 text-gray-700 hover:bg-[#1b323314]"
                   >
-                    Other B
+                    Marketing Strategy Consulting
                   </Link>
                   <Link
                     href="/services/seo"
                     className="block px-4 py-2 text-gray-700 hover:bg-[#1b323314]"
                   >
-                    Other C
+                    Digital & Tech Transformation
+                  </Link>
+                    <Link
+                    href="/services/seo"
+                    className="block px-4 py-2 text-gray-700 hover:bg-[#1b323314]"
+                  >
+                    Revenue & Efficiency Consulting
                   </Link>
                 </div>
               </div>
@@ -378,7 +168,7 @@ export default function Header() {
               {/* Dropdown */}
               <div className="relative group">
                 <button className="text-[var(--lgreen)] text-lg px-6 py-4 flex items-center">
-                  Template
+                  Industries
                   <svg
                     className="ml-1 w-4 h-4"
                     fill="none"
@@ -400,28 +190,62 @@ export default function Header() {
                     href="/services/web"
                     className="block px-4 py-2 text-gray-700 hover:bg-[#1b323314]"
                   >
-                    Template A
+                    Case Studies A
                   </Link>
                   <Link
                     href="/services/mobile"
                     className="block px-4 py-2 text-gray-700 hover:bg-[#1b323314]"
                   >
-                    Template B
+                    Case Studies B
                   </Link>
                   <Link
                     href="/services/seo"
                     className="block px-4 py-2 text-gray-700 hover:bg-[#1b323314]"
                   >
-                    Template C
+                    Case Studies C
                   </Link>
                 </div>
               </div>
               
+               <div className="relative group">
+                <button className="text-[var(--lgreen)] text-lg px-6 py-4 flex items-center">
+                  Resources
+                  {/* <svg
+                    className="ml-1 w-4 h-4"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M19 9l-7 7-7-7"
+                    />
+                  </svg> */}
+                </button>
+              </div>
 
-              {/* <Link href="/contact" className="text-[var(--lgreen)] text-lg px-5 py-4">
-                Template
-              </Link> */}
-              <Link href="#" target="_blank" className="flex justify-center items-center h-11 px-5 text-lg font-normal rounded-[50px] bg-[var(--lgreen)] text-[var(--dgreen)] transition-colors duration-200 hover:bg-[var(--lgreen2)]">Buy Template - $129</Link>
+                 <div className="relative group">
+                <button className="text-[var(--lgreen)] text-lg px-6 py-4 flex items-center">
+                  Contact Us
+                  {/* <svg
+                    className="ml-1 w-4 h-4"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M19 9l-7 7-7-7"
+                    />
+                  </svg> */}
+                </button>
+              </div>
+
+              <Link href="#" target="_blank" className="flex justify-center items-center h-11 px-5 text-lg font-normal rounded-[50px] bg-[var(--lgreen)] text-[var(--dgreen)] transition-colors duration-200 hover:bg-[var(--lgreen2)]">Schedule Appointment</Link>
               
             </div>
 
@@ -466,8 +290,8 @@ export default function Header() {
             {/* Dropdown - Homepages */}
             <details className="group py-[16px] px-[20px] mb-0  relative">
               <summary className="flex justify-center gap-5 items-center cursor-pointer text-[var(--lgreen)] text-lg">
-                Homepages
-                <svg
+                Home
+                {/* <svg
                   className="w-4 h-4 transition-transform duration-200 group-open:rotate-180"
                   fill="none"
                   stroke="currentColor"
@@ -479,65 +303,33 @@ export default function Header() {
                     strokeWidth={2}
                     d="M19 9l-7 7-7-7"
                   />
-                </svg>
+                </svg> */}
               </summary>
-              <div className="mt-2 space-y-1 bg-[var(--lgreen2)] border border-[#1b323333] rounded-[12px] absolute text-center w-[90%] left-1/2 -translate-x-1/2">
-                <Link href="/services/web" className="block py-1 text-[#222)]">
-                  Home A
-                </Link>
-                <Link href="/services/mobile" className="block py-1 text-[#222)]">
-                  Home B
-                </Link>
-                <Link href="/services/seo" className="block py-1 text-[#222)]">
-                  Home C
-                </Link>
-              </div>
             </details>
 
             {/* Dropdown - About */}
             <details className="group py-[16px] px-[20px] mb-0  relative">
               <summary className="flex justify-center gap-5 items-center cursor-pointer text-[var(--lgreen)] text-lg">
                 About
-                <svg
-                  className="w-4 h-4 transition-transform duration-200 group-open:rotate-180"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                </svg>
               </summary>
-              <div className="mt-2 space-y-1 bg-[var(--lgreen2)] border border-[#1b323333] rounded-[12px] absolute text-center w-[90%] left-1/2 -translate-x-1/2">
+              {/* <div className="mt-2 space-y-1 bg-[var(--lgreen2)] border border-[#1b323333] rounded-[12px] absolute text-center w-[90%] left-1/2 -translate-x-1/2">
                 <Link href="/services/web" className="block py-1 text-[#222)]">About A</Link>
                 <Link href="/services/mobile" className="block py-1 text-[#222)]">About B</Link>
                 <Link href="/services/seo" className="block py-1 text-[#222)]">About C</Link>
-              </div>
+              </div> */}
             </details>
 
             {/* Dropdown - Other */}
             <details className="group py-[16px] px-[20px] mb-0  relative">
               <summary className="flex justify-center gap-5 items-center cursor-pointer text-[var(--lgreen)] text-lg">
-                Other
-                <svg
-                  className="w-4 h-4 transition-transform duration-200 group-open:rotate-180"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                </svg>
+                Industries
               </summary>
-              <div className="mt-2 space-y-1 bg-[var(--lgreen2)] border border-[#1b323333] rounded-[12px] absolute text-center w-[90%] left-1/2 -translate-x-1/2">
-                <Link href="/services/web" className="block py-1 text-[#222)]">Other A</Link>
-                <Link href="/services/mobile" className="block py-1 text-[#222)]">Other B</Link>
-                <Link href="/services/seo" className="block py-1 text-[#222)]">Other C</Link>
-              </div>
             </details>
 
             {/* Dropdown - Template */}
             <details className="group py-[16px] px-[20px] mb-0  relative">
               <summary className="flex justify-center gap-5 items-center cursor-pointer text-[var(--lgreen)] text-lg">
-                Template
+                Services
                 <svg
                   className="w-4 h-4 transition-transform duration-200 group-open:rotate-180"
                   fill="none"
@@ -548,10 +340,17 @@ export default function Header() {
                 </svg>
               </summary>
               <div className="mt-2 space-y-1 bg-[var(--lgreen2)] border border-[#1b323333] rounded-[12px] absolute text-center w-[90%] left-1/2 -translate-x-1/2">
-                <Link href="/services/web" className="block py-1 text-[#222)]">Template A</Link>
-                <Link href="/services/mobile" className="block py-1 text-[#222)]">Template B</Link>
-                <Link href="/services/seo" className="block py-1 text-[#222)]">Template C</Link>
+                <Link href="/services/web" className="block py-1 text-[#222)]">Sales Process Consulting</Link>
+                <Link href="/services/mobile" className="block py-1 text-[#222)]">Marketing Strategy Consulting</Link>
+                <Link href="/services/seo" className="block py-1 text-[#222)]">Digital & Tech Transformation</Link>
+                <Link href="/services/seo" className="block py-1 text-[#222)]">Revenue & Efficiency Consulting</Link>
               </div>
+            </details>
+
+              <details className="group py-[16px] px-[20px] mb-0  relative">
+              <summary className="flex justify-center gap-5 items-center cursor-pointer text-[var(--lgreen)] text-lg">
+                Contact Us
+              </summary>
             </details>
 
             {/* Button at the bottom */}
@@ -560,7 +359,7 @@ export default function Header() {
               target="_blank"
               className="mt-[16px] flex justify-center items-center h-11 px-5 text-lg font-normal rounded-[50px] bg-[var(--lgreen)] text-[var(--dgreen)] transition-colors duration-200 hover:bg-[var(--lgreen2)]"
             >
-              Buy Template - $129
+              Schedule Appointment
             </Link>
           </div>
 

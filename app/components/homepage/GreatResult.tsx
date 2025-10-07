@@ -35,7 +35,17 @@ export default function GreatResult() {
                                 Founding year
                             </p>
                         </div> */}
+                        {/*                         
                         <div className="flex flex-col justify-center items-center gap-3 bg-[var(--lgreen2)] text-[var(--dgreen)] rounded-lg min-w-[212px] px-8 py-[26px] animate-fadeUp">
+                            <h3 className={`text-[38px] leading-[110%] ${zodiak.className}`}>
+                                2019
+                            </h3>
+                            <p className={`text-[20px] leading-[135%] ${satoshi.className}`}>
+                                Founding year
+                            </p>
+                        </div> */}
+                        <div
+                            className={`flex flex-col justify-center items-center gap-3 bg-[var(--lgreen2)] text-[var(--dgreen)] rounded-lg min-w-[212px] px-8 py-[26px] animate-fadeUp transition-transform transition-opacity duration-500 ease-in-out hover:-translate-y-2`}>
                             <h3 className={`text-[38px] leading-[110%] ${zodiak.className}`}>
                                 2019
                             </h3>

@@ -94,7 +94,7 @@ export default function ScrumPage() {
                     </div>
                 </div>
 
-                <div className="text-center h-13 px-8 mt-10">
+                <div className={`text-center h-13 px-8 mt-10 ${satoshi.className}`}>
                     <button className="bg-[var(--dgreen)] text-[var(--lgreen2)] py-2 rounded-full transition h-[52px] px-[32px] flex items-center justify-center m-auto text-[20px]">
                         Contact us
                     </button>
