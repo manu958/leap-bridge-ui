@@ -8,29 +8,6 @@ export default function Footer() {
         <footer className={`bg-[#1b3233] text-gray-300 ${satoshi.className}`}>
             <div className="max-w-[1400px] mx-auto md:px-[24px] px-[16px] pt-[100px] pb-[40px]">
 
-                {/* <div className="box-news flex flex-col md:flex-row justify-between items-center bg-[#253c3d] rounded-[10px] gap-6 p-8 border-b border-gray-700">
-                    
-                    <div>
-                        <Image
-                            src="/assests/header/images/665d580d007277205ba132e1_LogoLight.svg"
-                            alt="We Consult Logo"
-                            width={300}
-                            height={50}
-                            className="h-8"
-                        />
-                    </div>
-
-                    <div className=" flex w-full md:w-auto items-center bg-[#1B3233] rounded-full overflow-hidden border border-gray-600">
-                        <input
-                            type="email"
-                            placeholder="Your email"
-                            className="flex-1 px-4 py-2 bg-transparent text-gray-200 placeholder-gray-400 focus:outline-none"
-                        />
-                        <button className="ebutton bg-[#cde8d9] text-[#1b3233] font-medium px-6 py-2 hover:bg-[#bde0cc] transition">
-                            Subscribe
-                        </button>
-                    </div>
-                </div> */}
 
                 <div className="md:flex justify-between items-center bg-[#253c3d] rounded-[12px] py-[60px] px-[48px]">
                     {/* Logo */}
@@ -73,7 +50,7 @@ export default function Footer() {
                     {/* Left Content */}
                     <div className="flex flex-col md:items-start items:center gap-[32px] max-w-[400px]">
                         <p className="text-[var(--lgreen)] text-[22px] leading-[135%]">
-                            With life long relationship and support of science we help companies grow in an unimaginable speed
+                           We accelerate business growth through expert sales, marketing, and digital transformation strategies.
                         </p>
                         {/* <button className="bg-[#cde8d9] text-[#1b3233]  px-6 py-3 rounded-full shadow-md hover:opacity-90 transition duration-300">
                             Buy this template – $129
@@ -85,47 +62,48 @@ export default function Footer() {
                         <div className="flex flex-col md:flex-row md:gap-[122px] gap-[80px] md:text-start text-center">
                             <div className="">
                                 <ul className="space-y-4">
-                                    <li><div className="heading-footer-links">Homepages</div></li>
-                                    <li><Link href="#" className="footer-link">Home A</Link></li>
+                                    <li><div className="heading-footer-links">Home</div></li>
+                                    {/* <li><Link href="#" className="footer-link">Home A</Link></li>
                                     <li><Link href="#" className="footer-link">Home B</Link></li>
-                                    <li><Link href="#" className="footer-link">Home C</Link></li>
+                                    <li><Link href="#" className="footer-link">Home C</Link></li> */}
                                 </ul>
                             </div>
                             <div className="">
                                 <ul className="space-y-4">
                                     <li><div className="heading-footer-links">About us</div></li>
-                                    <li><Link href="#" className="footer-link">About A</Link></li>
+                                    {/* <li><Link href="#" className="footer-link">About A</Link></li>
                                     <li><Link href="#" className="footer-link">About B</Link></li>
-                                    <li><Link href="#" className="footer-link">About C</Link></li>
+                                    <li><Link href="#" className="footer-link">About C</Link></li> */}
                                 </ul>                                
                             </div>
                             <div className="block">
                                 <ul className="space-y-4">
-                                    <li><div className="heading-footer-links">Contact</div></li>
-                                    <li><Link href="#" className="footer-link">Contact A</Link></li>
-                                    <li><Link href="#" className="footer-link">Contact B</Link></li>
-                                    <li><Link href="#" className="footer-link">Contact C</Link></li>
+                                    <li><div className="heading-footer-links">Services</div></li>
+                                    <li><Link href="#" className="footer-link">Sales Process Consulting</Link></li>
+                                    <li><Link href="#" className="footer-link">Marketing Strategy Consulting</Link></li>
+                                    <li><Link href="#" className="footer-link">Digital & Tech Transformation</Link></li>
+                                    <li><Link href="#" className="footer-link">Revenue & Efficiency Consulting</Link></li>
                                 </ul>
                             </div>                      
                             <div className="block">
                                 <ul className="space-y-4">
-                                    <li><div className="heading-footer-links">Other pages</div></li>
-                                    <li><Link href="#" className="footer-link">Careers</Link></li>
+                                    <li><div className="heading-footer-links">Industries</div></li>
+                                    <li><Link href="#" className="footer-link">Resourses</Link></li>
                                     <li><Link href="#" className="footer-link">Case studies</Link></li>
                                     <li><Link href="#" className="footer-link">Blog</Link></li>
-                                    <li><Link href="#" className="footer-link">Pricing</Link></li>
-                                    <li><Link href="#" className="footer-link">Legal</Link></li>
+                                    <li><Link href="#" className="footer-link">Contact</Link></li>
+                                    {/* <li><Link href="#" className="footer-link">Legal</Link></li> */}
                                 </ul>
 
-                                <hr className="my-[42px]  border-t border-[#ceead54d]" />
-
+                                {/* <hr className="my-[42px]  border-t border-[#ceead54d]" /> */}
+{/* 
                                 <ul className="space-y-4">
                                     <li><Link href="#" className="footer-link">Style guide</Link></li>
                                     <li><Link href="#" className="footer-link">Licenses</Link></li>
                                     <li><Link href="#" className="footer-link">Start here</Link></li>
                                     <li><Link href="#" className="footer-link">Changelog</Link></li>
                                     <li><Link href="#" className="footer-link">See all pages</Link></li>
-                                </ul>
+                                </ul> */}
                             </div>
                         </div>
                     </div>
@@ -135,11 +113,11 @@ export default function Footer() {
 
                 <div className="flex md:flex-row flex-col justify-between items-center mt-20 pt-10 text-base border-t border-[var(--lgreen)]">
                     <div className="text-[var(--lgreen)] text-base md:text-start text-center md:mb-0 mb-7">
-                        Template designed with love by
-                        <Link href="#" target="_blank" className="legal-footer-link underline" > Wavesdesign</Link>, powered by <Link href="#" target="_blank" className="legal-footer-link underline" > Webflow </Link>
+                        Leap Bridge Consulting
+                        {/* <Link href="#" target="_blank" className="legal-footer-link underline" > Wave</Link>, powered by <Link href="#" target="_blank" className="legal-footer-link underline" > Webflow </Link> */}
                     </div>
                     <div className="text-[var(--lgreen)] text-base">
-                        <Link href="#" target="_blank" className="legal-footer-link underline" > See all templates </Link>
+                        <Link href="#" target="_blank" className="legal-footer-link underline" > Powered By Leap Bridge Consulting </Link>
                     </div>
                 </div>
 
