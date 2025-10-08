@@ -113,3 +113,7 @@ p.text-lg.mb-6.leading-relaxed {
 .box-news{
         padding: 5%;
 }
+
+img.h-8 {
+    height: 50px;
+}
