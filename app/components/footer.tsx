@@ -36,7 +36,7 @@ export default function Footer() {
                     {/* Logo */}
                     <div className="footer-top-left md:mb-0 mb-4">
                         <Link href="/" className="flex h-[21px]">
-                            <Image src="/assests/header/images/665d580d007277205ba132e1_LogoLight.svg" alt="We Consult Logo" width={300} height={50} className="h-8" />
+                            <Image src="/assests/header/images/leap bridge consulting logo.svg" alt="We Consult Logo" width={300} height={100} className="h-8" />
                         </Link>
                     </div>
                     {/* Newsletter */}

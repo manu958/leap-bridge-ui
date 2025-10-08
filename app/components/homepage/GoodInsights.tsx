@@ -6,20 +6,20 @@ import { zodiak } from "@/app/fonts";
 
 const posts = [
   {
-    title: "Color in Brand Identity",
+    title: "Go-to-Market Playbook",
     description:
-      "The role of color in building a cohesive and memorable brand identity.",
+      "A strategic framework for successful and profitable product launches and market entry.",
     imageSrc: "/assests/header/images/goodinsights/1fist.jpeg",
   },
   {
-    title: "Designing for Accessibility",
-    description: "Learn how to create designs that are accessible to all users",
+    title: "Route-to-Market Optimization",
+    description: "Redesign distribution channels to maximize sales and market coverage.",
     imageSrc: "/assests/header/images/goodinsights/2second.jpeg",
   },
   {
-    title: "Cohesive Brand Identity",
+    title: "Trade Spend Efficiency",
     description:
-      "Learn how to develop a consistent brand identity for your business.",
+      "Transform trade spending into a strategic driver for maximum profitability.",
     imageSrc: "/assests/header/images/goodinsights/3third.jpeg",
   },
 ];
@@ -31,12 +31,12 @@ const GoodInsights = () => {
         <h2
           className={`text-4xl font-normal text-[#1B3233] mb-4 text-center ${zodiak.className}`}
         >
-          Good stories, good insights
+          Strategic Insights, Measurable Growth
         </h2>
         <p
           className={`text-[#1B3233] mb-10 text-xl text-center ${satoshi.className}`}
         >
-          Learn how to effectively use color in your brand design.
+          Transform your market position with data-driven consulting and proven frameworks.
         </p>
 
         <div className="space-y-6">

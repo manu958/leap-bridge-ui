@@ -11,13 +11,12 @@ const ProblemSolv = () => {
             <h2
               className={`${zodiak.className} md:text-[40px] text-[32px] text-[#1B3233] mb-3 leading-[1.3]`}
             >
-              Process oriented for solving problems
+              Process driven for delivering growth
             </h2>
             <p
               className={`${satoshi.className} text-[20px] text-[#1B3233] mb-[35px]`}
             >
-              Praesent ac massa at ligula laoreet iaculis. Vivamus aliquet elit
-              ac nisl. Sed aliquam aliquet.
+              We implement proven sales frameworks and tech solutions to expand your market reach and boost profitability.
             </p>
             <button
               className={`${satoshi.className} bg-[var(--dgreen)] text-[#ECF6F2] text-[20px] flex justify-center items-center h-[52px] px-[32px] rounded-[50px] md:m-0 mto`}
@@ -37,14 +36,12 @@ const ProblemSolv = () => {
             <h4
               className={`${zodiak.className} font-normal leading-[120%] text-[20px] md:text-[22px] lg:text-[26px] mb-4 md:mb-6 lg:mb-8`}
             >
-              Research
+              Research & Analysis
             </h4>
             <p
               className={`${satoshi.className} text-[16px] md:text-[18px] lg:text-[20px] mt-2`}
             >
-              Phasellus nec sem in justo pellentesque facilisis. Aliquam lorem
-              ante, dapibus in, viverra quis, feugiat a, tellus. Nam pretium
-              turpis et arcu.
+              We conduct deep market research and data analysis to uncover your key growth opportunities and strategic challenges.
             </p>
           </div>
 
@@ -57,14 +54,12 @@ const ProblemSolv = () => {
             <h4
               className={`${zodiak.className} font-normal leading-[120%] text-[20px] md:text-[22px] lg:text-[26px] mb-4 md:mb-6 lg:mb-8`}
             >
-              Ideation
+              Strategy & Planning
             </h4>
             <p
               className={`${satoshi.className} text-[16px] md:text-[18px] lg:text-[20px] mt-2`}
             >
-              Phasellus nec sem in justo pellentesque facilisis. Aliquam lorem
-              ante, dapibus in, viverra quis, feugiat a, tellus. Nam pretium
-              turpis et arcu.
+             We build data-driven strategies for market entry and transformation, creating your clear roadmap to achieve growth.
             </p>
           </div>
 
@@ -77,14 +72,12 @@ const ProblemSolv = () => {
             <h4
               className={`${zodiak.className} font-normal leading-[120%] text-[20px] md:text-[22px] lg:text-[26px] mb-4 md:mb-6 lg:mb-8`}
             >
-              Design
+               Consulting & Enablement
             </h4>
             <p
               className={`${satoshi.className} text-[16px] md:text-[18px] lg:text-[20px] mt-2`}
             >
-              Phasellus nec sem in justo pellentesque facilisis. Aliquam lorem
-              ante, dapibus in, viverra quis, feugiat a, tellus. Nam pretium
-              turpis et arcu.
+              Our experts implement new processes and technology with hands-on training for your team's success.
             </p>
           </div>
 
@@ -97,14 +90,12 @@ const ProblemSolv = () => {
             <h4
               className={`${zodiak.className} font-normal leading-[120%] text-[20px] md:text-[22px] lg:text-[26px] mb-4 md:mb-6 lg:mb-8`}
             >
-              Develop & Test
+              Implementation & Growth
             </h4>
             <p
               className={`${satoshi.className} text-[16px] md:text-[18px] lg:text-[20px] mt-2`}
             >
-              Phasellus nec sem in justo pellentesque facilisis. Aliquam lorem
-              ante, dapibus in, viverra quis, feugiat a, tellus. Nam pretium
-              turpis et arcu.
+              We guide full strategy execution to drive your measurable outcomes and sustainable revenue growth.
             </p>
           </div>
         </div>

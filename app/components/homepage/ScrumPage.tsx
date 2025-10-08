@@ -25,12 +25,10 @@ export default function ScrumPage() {
                     </div>
                     <div>
                         <h3 className={`text-lg text-[26px] font-normal leading-[120%] mb-2 ${zodiak.className}`}>
-                            Management
+                            Sales Process
                         </h3>
                         <p className={`text-sm text-[20px] leading-relaxed ${satoshi.className}`}>
-                            Praesent venenatis metus at tortor pulvinar varius. Pellentesque
-                            posuere. Mauris turpis nunc, blandit et, volutpat molestie.
-                        </p>
+                            We expand your general trade distribution and redesign route-to-market to enhance sales force performance  </p>
                     </div>
                 </div>
 
@@ -45,11 +43,10 @@ export default function ScrumPage() {
                     </div>
                     <div>
                         <h3 className={`text-lg text-[26px] font-normal leading-[120%] mb-2 ${zodiak.className}`}>
-                            Digital
+                            Marketing Strategy
                         </h3>
                         <p className={`text-sm text-[20px]  leading-relaxed ${satoshi.className}`}>
-                            Praesent venenatis metus at tortor pulvinar varius. Pellentesque
-                            posuere. Mauris turpis nunc, blandit et, volutpat molestie.
+                            We guide your pharma-to-consumer transition and build data-driven go-to-market strategies for sustained brand growth.
                         </p>
                     </div>
                 </div>
@@ -65,11 +62,10 @@ export default function ScrumPage() {
                     </div>
                     <div>
                         <h3 className={`text-lg text-[26px] font-normal leading-[120%] mb-2 ${zodiak.className}`}>
-                            Design
+                            Digital & Tech
                         </h3>
                         <p className={`text-sm text-[20px] leading-relaxed ${satoshi.className}`}>
-                            Praesent venenatis metus at tortor pulvinar varius. Pellentesque
-                            posuere. Mauris turpis nunc, blandit et, volutpat molestie.
+                          We deploy sales automation and e-commerce platforms to boost customer engagement and accelerate digital revenue.
                         </p>
                     </div>
                 </div>
@@ -85,11 +81,10 @@ export default function ScrumPage() {
                     </div>
                     <div>
                         <h3 className={`text-lg text-[26px] font-normal leading-[120%] mb-2 ${zodiak.className}`}>
-                            SCRUM
+                            Revenue & Efficiency
                         </h3>
                         <p className={`text-sm text-[20px]  leading-relaxed ${satoshi.className}`}>
-                            Praesent venenatis metus at tortor pulvinar varius. Pellentesque
-                            posuere. Mauris turpis nunc, blandit et, volutpat molestie.
+                            We analyze trade investment and streamline processes to increase profitability while scaling revenue operations.
                         </p>
                     </div>
                 </div>

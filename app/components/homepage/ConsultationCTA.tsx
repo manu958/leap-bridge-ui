@@ -22,14 +22,13 @@ export default function ConsultationSection() {
 
                 <div className="bookbox text-center md:text-left">
                     <h2 className={`text-[40px] md:text-4xl font-thin text-[#1B3233] mb-4 ${zodiak.className}`}>
-                        Book your free consultation today!
+                        Accelerate your business growth today!
                     </h2>
                     <p className={`text-[20px] text-[#1B3233] mb-6 ${satoshi.className}`}>
-                        Pellentesque ut neque. Duis arcu tortor, suscipit eget, imperdiet nec,
-                        imperdiet iaculis, ipsum. Sed mollis, eros et ultrices tempus.
+                        Let our experts analyze your challenges and craft a tailored strategy for market entry, distribution, or digital transformation.
                     </p>
                     <button className={`px-6 py-2 bg-[#1B3233] text-[20px] text-[#ECF6F2] rounded-full hover:bg-[#1e4741] transition ${satoshi.className}`}>
-                        Contact sales
+                        Book a Consultation
                     </button>
                 </div>
             </div>
