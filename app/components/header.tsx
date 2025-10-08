@@ -1,13 +1,13 @@
 "use client";
-import { useState } from "react";
+// import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { satoshi } from "../fonts";
 
 export default function Header() {
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-  const [productMenuOpen, setProductMenuOpen] = useState(false);
-  const [caseStudiesOpen, setCaseStudiesOpen] = useState(false);
+  // const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  // const [productMenuOpen, setProductMenuOpen] = useState(false);
+  // const [caseStudiesOpen, setCaseStudiesOpen] = useState(false);
 
   return (
     <header className={`sticky top-0 z-50 ${satoshi.className}`}>
