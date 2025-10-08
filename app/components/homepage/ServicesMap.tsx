@@ -17,8 +17,7 @@ const ServicesMap = () => {
       <div className="text-center bg-[url('/assests/header/logoimage/map_light_img.svg')] bg-top bg-[length:100%_auto] bg-no-repeat w-full mx-auto max-w-[1058px] min-h-[545px] flex flex-col items-center justify-center">
         <div className="max-w-[808px] mx-auto">
           <p className={`${zodiak.className} text-[20px] md:text-[36px] font-normal leading-[130%] text-[var(--dgreen)]`} >
-          Since 1994 WeConsult brings the smartest people together offering
-          exceptional consulting services for the biggest players.
+         Leap Bridge Consultancy delivers exceptional  process, and digital transformation services to build your future.
         </p>
         </div>
       </div>

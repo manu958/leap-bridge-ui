@@ -1,7 +1,8 @@
-"use client"; 
+"use client"; // Required for useEffect in Next.js
 import React, { useEffect } from "react";
 import { satoshi, zodiak } from "@/app/fonts";
 import Image from "next/image";
+
 
 const MainBanner = () => {
   useEffect(() => {
@@ -40,20 +41,20 @@ const MainBanner = () => {
 
       <div className="heading-home mb-[80px]">
         <h1
-          className={`${zodiak.className} text-3xl sm:text-5xl md:text-6xl max-w-3xl font-serif font-semibold text-[#DFFFE0] leading-tight heading-h`}
+          className={`${zodiak.className} text-3xl sm:text-5xl md:text-6xl max-w-2xl font-serif font-semibold text-[#DFFFE0] leading-tight heading-h  `}
         >
-          Opening gates to digital world
+          Your Partner in Digital Evolution
         </h1>
         <p
           className={`${satoshi.className} subtitle-h mt-[23px] max-w-2xl mx-auto text-base sm:text-lg text-[#CEEAD5]`}
         >
-          The most professional consulting out, there changing the realm business and digital
+         From insight to execution — we bridge strategy, technology, and growth.
         </p>
       </div>
 
       <div className="mainbanner max-w-[1180px] w-full">
         <Image
-          src="/assests/header/images/mainimg.webp"
+          src="/assests/header/images/mainimage.jpg"
           alt="Logo"
           width={1000}
           height={1000}

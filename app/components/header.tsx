@@ -172,7 +172,7 @@ export default function Header() {
               <div className="relative group">
                 <button className="text-[var(--lgreen)] text-lg px-6 py-4 flex items-center">
                   Industries
-                  <svg
+                  {/* <svg
                     className="ml-1 w-4 h-4"
                     fill="none"
                     stroke="currentColor"
@@ -184,10 +184,10 @@ export default function Header() {
                       strokeWidth={2}
                       d="M19 9l-7 7-7-7"
                     />
-                  </svg>
+                  </svg> */}
                 </button>
 
-                {/* Dropdown Menu */}
+                {/* Dropdown Menu
                  <div className="absolute left-0 mt-0 w-40 bg-[var(--lgreen2)] shadow-lg border border-[#1b323333] rounded-[12px] opacity-0 invisible group-hover:opacity-100 group-hover:visible transition duration-200 overflow-hidden">
                   <Link
                     href="/services/web"
@@ -207,7 +207,7 @@ export default function Header() {
                   >
                     Case Studies C
                   </Link>
-                </div>
+                </div> */}
               </div>
               
                <div className="relative group">
