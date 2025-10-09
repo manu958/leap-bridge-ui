@@ -40,7 +40,7 @@ const MainBanner: React.FC = () => {
           className="w-full h-full object-cover"
         >
           <source
-            src="/assests/header/bg-vedio/videoplayback.mp4"
+            src="/assests/header/bg-vedio/videoplayback1.mp4"
             type="video/mp4"
           />
           Your browser does not support the video tag.
@@ -64,19 +64,19 @@ const MainBanner: React.FC = () => {
           <h1
             className={`${zodiak.className} text-3xl sm:text-5xl md:text-6xl max-w-2xl font-serif font-semibold text-[#DFFFE0] leading-tight heading-h`}
           >
-            Marketing That Delivers Results
+           Growth Strategy Partners
           </h1>
           <p
             className={`${satoshi.className} subtitle-h mt-[23px] max-w-2xl text-base sm:text-lg text-[#CEEAD5]`}
           >
-            We combine consulting insight and execution to deliver high-impact sales outcomes.
+            We help businesses achieve market growth and boost sales through expert consulting.
           </p>
         </div>
 
         {/* Image Section */}
         <div className="mainbanner w-full flex justify-center">
           <Image
-            src="/assests/header/images/mainimage.jpg"
+            src="/assests/header/images/bannerimg.jpg"
             alt="Main Banner"
             width={1000}
             height={1000}

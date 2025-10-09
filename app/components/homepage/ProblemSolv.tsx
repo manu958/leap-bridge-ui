@@ -40,6 +40,14 @@ const ProblemSolv = () => {
             >
               We conduct deep market research and data analysis to uncover your key growth opportunities and strategic challenges.
             </p>
+
+            <button
+              className={`w-12 h-12 flex items-center justify-center bg-[#1B3233] text-[#ECF6F2] text-[22px] rounded-full hover:bg-[#1e4741] transition duration-300 mt-4 ${satoshi.className}`}
+            >
+              →
+            </button>
+
+
           </div>
 
           <div>
@@ -56,8 +64,16 @@ const ProblemSolv = () => {
             <p
               className={`${satoshi.className} text-[16px] md:text-[18px] lg:text-[20px] mt-2`}
             >
-             We build data-driven strategies for market entry and transformation, creating your clear roadmap to achieve growth.
+              We build data-driven strategies for market entry and transformation, creating your clear roadmap to achieve growth.
             </p>
+
+            <button
+              className={`w-12 h-12 flex items-center justify-center bg-[#1B3233] text-[#ECF6F2] text-[22px] rounded-full hover:bg-[#1e4741] transition duration-300 mt-4 ${satoshi.className}`}
+            >
+              →
+            </button>
+
+
           </div>
 
           <div>
@@ -69,13 +85,19 @@ const ProblemSolv = () => {
             <h4
               className={`${zodiak.className} font-normal leading-[120%] text-[20px] md:text-[22px] lg:text-[26px] mb-4 md:mb-6 lg:mb-8`}
             >
-               Consulting & Enablement
+              Consulting & Enablement
             </h4>
             <p
               className={`${satoshi.className} text-[16px] md:text-[18px] lg:text-[20px] mt-2`}
             >
               Our experts implement new processes and technology with hands-on training for your team&apos;s success.
             </p>
+
+            <button
+              className={`w-12 h-12 flex items-center justify-center bg-[#1B3233] text-[#ECF6F2] text-[22px] rounded-full hover:bg-[#1e4741] transition duration-300 mt-4 ${satoshi.className}`}
+            >
+              →
+            </button>
           </div>
 
           <div>
@@ -94,6 +116,12 @@ const ProblemSolv = () => {
             >
               We guide full strategy execution to drive your measurable outcomes and sustainable revenue growth.
             </p>
+            <button
+              className={`w-12 h-12 flex items-center justify-center bg-[#1B3233] text-[#ECF6F2] text-[22px] rounded-full hover:bg-[#1e4741] transition duration-300 mt-4 ${satoshi.className}`}
+            >
+              →
+            </button>
+
           </div>
         </div>
       </div>
