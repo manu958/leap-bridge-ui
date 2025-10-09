@@ -12,7 +12,7 @@ export default function ConsultationSection() {
 
                 <div className="relative flex justify-center md:justify-end">
                         <Image
-                            src="/assests/header/scrumpage-logos/CTA Three.webp"
+                            src="/assests/header/scrumpage-logos/cta1.jpg"
                             alt="Consultation"
                             width={500}
                             height={600}
