@@ -12,7 +12,7 @@ export default function Footer() {
                 <div className="md:flex justify-between items-center bg-[#253c3d] rounded-[12px] py-[60px] px-[48px]">
                     {/* Logo */}
                     <div className="footer-top-left md:mb-0 mb-4">
-                        <Link href="/" className="flex h-[21px]">
+                        <Link href="/" className="flex h-[65px]">
                             <Image src="/assests/header/images/leap bridge consulting logo.svg" alt="We Consult Logo" width={300} height={100} className="h-8" />
                         </Link>
                     </div>

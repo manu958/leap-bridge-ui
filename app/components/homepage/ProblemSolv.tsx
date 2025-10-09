@@ -18,7 +18,7 @@ const ProblemSolv = () => {
             >
               We implement proven sales frameworks and tech solutions to expand your market reach and boost profitability.
             </p>
-            <button className={`${satoshi.className} bg-[var(--dgreen)] text-[#ECF6F2] text-[20px] flex justify-center items-center h-[52px] px-[32px] rounded-[50px] md:m-0 mto`}
+            <button className={`${satoshi.className} bg-[var(--dgreen)] text-[#ECF6F2] text-[20px] flex justify-center items-center h-[52px] px-[32px] rounded-[50px] md:m-0 mx-auto`}
             >Talk to Us</button>
           </div>
         </div>
