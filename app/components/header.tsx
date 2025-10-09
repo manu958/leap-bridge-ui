@@ -213,7 +213,7 @@ export default function Header() {
                <div className="relative group">
                 <button className="text-[var(--lgreen)] text-lg px-6 py-4 flex items-center">
                   Resources
-                  {/* <svg
+                  <svg
                     className="ml-1 w-4 h-4"
                     fill="none"
                     stroke="currentColor"
@@ -225,8 +225,36 @@ export default function Header() {
                       strokeWidth={2}
                       d="M19 9l-7 7-7-7"
                     />
-                  </svg> */}
+                  </svg>
                 </button>
+
+                {/* Dropdown Menu */}
+                 <div className="absolute left-0 mt-0 w-[220px] bg-[var(--lgreen2)] shadow-lg border border-[#1b323333] rounded-[12px] opacity-0 invisible group-hover:opacity-100 group-hover:visible transition duration-200 overflow-hidden">
+                  <Link
+                    href="/services/web"
+                    className="block px-4 py-2 text-gray-700 hover:bg-[#1b323314]"
+                  >
+                    Blogs 
+                  </Link>
+                  <Link
+                    href="/services/mobile"
+                    className="block px-4 py-2 text-gray-700 hover:bg-[#1b323314]"
+                  >
+                    Downloadable Playbooks
+                  </Link>
+                  <Link
+                    href="/services/seo"
+                    className="block px-4 py-2 text-gray-700 hover:bg-[#1b323314]"
+                  >
+                    Whitepapers & Research Reports
+                  </Link>
+                  <Link
+                    href="/services/seo"
+                    className="block px-4 py-2 text-gray-700 hover:bg-[#1b323314]"
+                  >
+                    Videos & Webinars (recorded or upcoming)
+                  </Link>
+                </div> 
               </div>
 
                  <div className="relative group">
