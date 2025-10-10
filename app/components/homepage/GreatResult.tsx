@@ -116,7 +116,7 @@ export default function GreatResult() {
 
             <div className="flex flex-col justify-center items-center gap-3 bg-[var(--lgreen2)] text-[var(--dgreen)] rounded-lg min-w-[212px] px-8 py-[26px] animate-fadeUp">
               <h3 className={`text-[38px] leading-[110%] ${zodiak.className}`}>
-                100+
+                10+
               </h3>
               <p className={`text-[20px] leading-[135%] ${satoshi.className}`}>
                 specialists

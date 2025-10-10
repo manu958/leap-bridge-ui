@@ -27,7 +27,7 @@ export default function ConsultationSection() {
                     <p className={`text-[20px] text-[#1B3233] mb-6 ${satoshi.className}`}>
                         Let our experts analyze your challenges and craft a tailored strategy for market entry, distribution, or digital transformation.
                     </p>
-                    <button className={`px-6 py-2 bg-[#1B3233] text-[20px] text-[#ECF6F2] rounded-full hover:bg-[#1e4741] transition ${satoshi.className}`}>
+                    <button className={`px-6 py-2 bg-[#147e5d] hover:bg-[#1E4741] text-[20px] text-[#ECF6F2] rounded-full hover:bg-[#1e4741] transition ${satoshi.className}`}>
                         Book a Consultation
                     </button>
                 </div>

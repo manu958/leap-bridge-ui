@@ -7,42 +7,53 @@ export default function HappyCustomers() {
   return (
     <section className="bg-[#F3FBF8] py-16">
       <div className="container mx-auto px-4 flex flex-col md:flex-row items-center justify-between gap-12">
-        
+
         {/* LEFT IMAGE SECTION */}
-        <div className="w-full md:w-1/2 flex justify-center">
-          <Image
-            src="/assests/header/about section images/2_centeredcircles.svg" 
-            alt="Happy Customer"
-            width={600}
-            height={600}
-            className="w-full h-auto max-w-[500px] object-contain"
-          />
+        <div className="relative w-full md:w-1/2 flex justify-center items-center">
+          {/* Background Image */}
+          <div className="relative w-[500px] h-[500px] flex justify-center items-center">
+            <Image
+              src="/assests/header/about section images/2_centeredcircles.svg"
+              alt="Background Circles"
+              fill
+              className="object-contain"
+            />
+
+            {/* Center Image */}
+            <div className="absolute w-[150px] h-[150px] rounded-full overflow-hidden border-0 shadow-lg">
+              <Image
+                src="/assests/header/about section images/centeredimg.jpg"
+                alt="Profile Picture"
+                fill
+                className="object-cover"
+              />
+            </div>
+          </div>
         </div>
 
         {/* RIGHT TEXT SECTION */}
-        <div className="w-full md:w-1/2 space-y-6">
+        <div className="w-full md:w-1/2 space-y-6 text-center md:text-left flex flex-col items-center md:items-start">
           <h2
             className={`${zodiak.className} text-[28px] md:text-[40px] font-medium text-[#0D2B27] leading-tight`}
           >
-            Happy customers in the center of us.
+            Happy Customers at Our Core
           </h2>
 
           <p
             className={`${satoshi.className} text-[#30403F] text-[16px] leading-relaxed`}
           >
-            In ac felis quis tortor malesuada pretium. Morbi mattis ullamcorper
-            velit. Etiam ut purus mattis mauris sodales aliquam.
+            We place our clients’ success at the heart of everything we do. Through tailored solutions and expert guidance, we ensure your business grows efficiently and sustainably. Your satisfaction drives our purpose, and we measure our success by yours.
           </p>
 
           <ul className="space-y-2">
             {[
-              "something to say",
-              "and something extra",
-              "and finish on this point",
+              "We put our clients’ success first.",
+              "Tailored strategies help businesses grow",
+              "Your satisfaction defines our success",
             ].map((item, i) => (
               <li
                 key={i}
-                className="flex items-center gap-2 text-[#0D2B27] text-[16px]"
+                className="flex items-center justify-center md:justify-start gap-2 text-[#0D2B27] text-[16px]"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -63,6 +74,7 @@ export default function HappyCustomers() {
             Contact us
           </button>
         </div>
+
       </div>
     </section>
   );

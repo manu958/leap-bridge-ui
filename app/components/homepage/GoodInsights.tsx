@@ -9,18 +9,18 @@ const posts = [
     title: "Go-to-Market Playbook",
     description:
       "A strategic framework for successful and profitable product launches and market entry.",
-    imageSrc: "/assests/header/images/goodinsights/1fist.jpeg",
+    imageSrc: "/assests/header/images/goodinsights/playbook1.jpg",
   },
   {
     title: "Route-to-Market Optimization",
     description: "Redesign distribution channels to maximize sales and market coverage.",
-    imageSrc: "/assests/header/images/goodinsights/2second.jpeg",
+    imageSrc: "/assests/header/scrumpage-logos/marketopt.jpg",
   },
   {
     title: "Trade Spend Efficiency",
     description:
       "Transform trade spending into a strategic driver for maximum profitability.",
-    imageSrc: "/assests/header/images/goodinsights/3third.jpeg",
+    imageSrc: "/assests/header/images/goodinsights/tradeex.jpg",
   },
 ];
 
@@ -119,7 +119,7 @@ const GoodInsights = () => {
         <div className="mt-12 text-center justify-center">
           <button
             type="button"
-            className={`h-[52px] px-[32px] py-3 text-xl border border-transparent font-normal rounded-[50px] text-[#ECF6F2] bg-[#1B3233] ${satoshi.className}`}
+            className={`h-[52px] px-[32px] py-3 text-xl border border-transparent font-normal rounded-[50px] text-[#ECF6F2] bg-[#147e5d] hover:bg-[#1E4741] ${satoshi.className}`}
           >
             See all posts
           </button>

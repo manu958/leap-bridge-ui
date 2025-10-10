@@ -6,12 +6,9 @@ export default function ScrumPage() {
         <section className="w-full bg-[#ecf6f2] md:py-[120px] py-[80px]">
             <div className="max-w-[712px] mx-auto md:px-[24px] px-[16px] text-[#1B3233]">
 
-
-
                 <h2 className={`text-[32px] md:text-[40px] font-normal max-w-[410px] leading-[125%] mb-[64px] ${zodiak.className}`}>
                     Things we can do for you and more.
                 </h2>
-
 
                 {/* Item 1 */}
                 <div className="border-t border-[#1B3233] py-6 flex gap-4">
@@ -90,7 +87,7 @@ export default function ScrumPage() {
                 </div>
 
                 <div className={`text-center h-13 px-8 mt-10 ${satoshi.className}`}>
-                    <button className="bg-[var(--dgreen)] text-[var(--lgreen2)] py-2 rounded-full transition h-[52px] px-[32px] flex items-center justify-center m-auto text-[20px]">
+                    <button className="bg-[#147e5d] hover:bg-[#1E4741] text-[var(--lgreen2)] py-2 rounded-full transition h-[52px] px-[32px] flex items-center justify-center m-auto text-[20px]">
                         Contact us
                     </button>
                 </div>

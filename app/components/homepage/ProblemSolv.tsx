@@ -18,8 +18,12 @@ const ProblemSolv = () => {
             >
               We implement proven sales frameworks and tech solutions to expand your market reach and boost profitability.
             </p>
-            <button className={`${satoshi.className} bg-[var(--dgreen)] text-[#ECF6F2] text-[20px] flex justify-center items-center h-[52px] px-[32px] rounded-[50px] md:m-0 mx-auto`}
-            >Talk to Us</button>
+            <button
+              className={`${satoshi.className} bg-[#147e5d] hover:bg-[#1E4741] text-[#ECF6F2] text-[20px] flex justify-center items-center h-[52px] px-[32px] rounded-[50px] md:m-0 mx-auto transition-all duration-300`}
+            >
+              Talk to Us
+            </button>
+
           </div>
         </div>
 
@@ -42,7 +46,7 @@ const ProblemSolv = () => {
             </p>
 
             <button
-              className={`w-12 h-12 flex items-center justify-center bg-[#1B3233] text-[#ECF6F2] text-[22px] rounded-full hover:bg-[#1e4741] transition duration-300 mt-4 ${satoshi.className}`}
+              className={`w-12 h-12 flex items-center justify-center bg-[#147e5d] hover:bg-[#1E4741] text-[#ECF6F2] text-[22px] rounded-full hover:bg-[#1e4741] transition duration-300 mt-4 ${satoshi.className}`}
             >
               →
             </button>
@@ -68,7 +72,7 @@ const ProblemSolv = () => {
             </p>
 
             <button
-              className={`w-12 h-12 flex items-center justify-center bg-[#1B3233] text-[#ECF6F2] text-[22px] rounded-full hover:bg-[#1e4741] transition duration-300 mt-4 ${satoshi.className}`}
+              className={`w-12 h-12 flex items-center justify-center bg-[#147e5d] hover:bg-[#1E4741] text-[#ECF6F2] text-[22px] rounded-full hover:bg-[#1e4741] transition duration-300 mt-4 ${satoshi.className}`}
             >
               →
             </button>
@@ -94,7 +98,7 @@ const ProblemSolv = () => {
             </p>
 
             <button
-              className={`w-12 h-12 flex items-center justify-center bg-[#1B3233] text-[#ECF6F2] text-[22px] rounded-full hover:bg-[#1e4741] transition duration-300 mt-4 ${satoshi.className}`}
+              className={`w-12 h-12 flex items-center justify-center bg-[#147e5d] hover:bg-[#1E4741] text-[#ECF6F2] text-[22px] rounded-full hover:bg-[#1e4741] transition duration-300 mt-4 ${satoshi.className}`}
             >
               →
             </button>
@@ -117,7 +121,7 @@ const ProblemSolv = () => {
               We guide full strategy execution to drive your measurable outcomes and sustainable revenue growth.
             </p>
             <button
-              className={`w-12 h-12 flex items-center justify-center bg-[#1B3233] text-[#ECF6F2] text-[22px] rounded-full hover:bg-[#1e4741] transition duration-300 mt-4 ${satoshi.className}`}
+              className={`w-12 h-12 flex items-center justify-center bg-[#147e5d] hover:bg-[#1E4741] text-[#ECF6F2] text-[22px] rounded-full hover:bg-[#1e4741] transition duration-300 mt-4 ${satoshi.className}`}
             >
               →
             </button>

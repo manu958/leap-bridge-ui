@@ -25,32 +25,32 @@ export default function Footer() {
                         >
                             {/* Input */}
                             <input
-                            className="border border-[color:var(--lgreen2)] text-[#ecf6f2] bg-[#ecf6f21a] rounded-[64px] md:w-[260px] w-full h-[56px] md:mb-0 mb-4 mr-[-50px] pl-[24px] pr-[32px] text-[18px] placeholder-[var(--lgreen2)] outline-none"
-                            maxLength={256}
-                            name="email-2"
-                            placeholder="Your email"
-                            type="email"
-                            id="email-newsletter"
-                            required
+                                className="border border-[color:var(--lgreen2)] text-[#ecf6f2] bg-[#ecf6f21a] rounded-[64px] md:w-[260px] w-full h-[56px] md:mb-0 mb-4 mr-[-50px] pl-[24px] pr-[32px] text-[18px] placeholder-[var(--lgreen2)] outline-none"
+                                maxLength={256}
+                                name="email-2"
+                                placeholder="Your email"
+                                type="email"
+                                id="email-newsletter"
+                                required
                             />
 
                             {/* Submit Button */}
                             <input
-                            type="submit"
-                            className="bg-[var(--lgreen2)] text-[var(--dgreen)] rounded-[60px] flex justify-center items-center md:w-[180px] w-full h-[56px] px-[22px] text-[20px]"
-                            defaultValue="Subscribe"
+                                type="submit"
+                                className="bg-[var(--lgreen2)] text-[var(--dgreen)] rounded-[60px] flex justify-center items-center md:w-[180px] w-full h-[56px] px-[22px] text-[20px]"
+                                defaultValue="Subscribe"
                             />
                         </form>
                     </div>
                 </div>
-                   
+
 
                 {/* Middle: Left Text + Links */}
                 <div className="flex md:flex-row flex-col justify-between md:items-start items:center md:gap-0 gap-[80px] mt-[80px]  md:text-start text-center">
                     {/* Left Content */}
                     <div className="flex flex-col md:items-start items:center gap-[32px] max-w-[400px]">
                         <p className="text-[var(--lgreen)] text-[22px] leading-[135%]">
-                           We accelerate business growth through expert sales, marketing, and digital transformation strategies.
+                            We accelerate business growth through expert sales, marketing, and digital transformation strategies.
                         </p>
                         {/* <button className="bg-[#cde8d9] text-[#1b3233]  px-6 py-3 rounded-full shadow-md hover:opacity-90 transition duration-300">
                             Buy this template – $129
@@ -74,7 +74,7 @@ export default function Footer() {
                                     {/* <li><Link href="#" className="footer-link">About A</Link></li>
                                     <li><Link href="#" className="footer-link">About B</Link></li>
                                     <li><Link href="#" className="footer-link">About C</Link></li> */}
-                                </ul>                                
+                                </ul>
                             </div>
                             <div className="block">
                                 <ul className="space-y-4">
@@ -84,7 +84,7 @@ export default function Footer() {
                                     <li><Link href="#" className="footer-link">Digital & Tech Transformation</Link></li>
                                     <li><Link href="#" className="footer-link">Revenue & Efficiency Consulting</Link></li>
                                 </ul>
-                            </div>                      
+                            </div>
                             <div className="block">
                                 <ul className="space-y-4">
                                     <li><div className="heading-footer-links">Industries</div></li>
@@ -96,7 +96,7 @@ export default function Footer() {
                                 </ul>
 
                                 {/* <hr className="my-[42px]  border-t border-[#ceead54d]" /> */}
-{/* 
+                                {/* 
                                 <ul className="space-y-4">
                                     <li><Link href="#" className="footer-link">Style guide</Link></li>
                                     <li><Link href="#" className="footer-link">Licenses</Link></li>
@@ -122,7 +122,7 @@ export default function Footer() {
                 </div>
 
 
-                
+
             </div>
         </footer>
     );
