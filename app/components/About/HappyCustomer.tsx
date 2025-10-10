@@ -11,7 +11,7 @@ export default function HappyCustomers() {
         {/* LEFT IMAGE SECTION */}
         <div className="w-full md:w-1/2 flex justify-center">
           <Image
-            src="/images/happy-customer.png" // 🔹 replace this with your image
+            src="/assests/header/about section images/2_centeredcircles.svg" 
             alt="Happy Customer"
             width={600}
             height={600}

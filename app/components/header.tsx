@@ -37,44 +37,9 @@ export default function Header() {
 
               {/* Dropdown */}
               <div className="relative group">
-                <button className="text-[var(--lgreen)] text-lg px-6 py-4 flex items-center">
-                  
+                <button className="text-[var(--lgreen)] text-lg px-6 py-4 flex items-center">     
                   Home
-                  {/* <svg
-                    className="ml-1 w-4 h-4"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M19 9l-7 7-7-7"
-                    />
-                  </svg> */}
                 </button>
-
-                 {/* <div className="absolute left-0 mt-0 w-40 bg-[var(--lgreen2)] shadow-lg border border-[#1b323333] rounded-[12px] opacity-0 invisible group-hover:opacity-100 group-hover:visible transition duration-200 overflow-hidden">
-                  <Link
-                    href="/services/web"
-                    className="block px-4 py-2 text-gray-700 hover:bg-[#1b323314]"
-                  >
-                    Home A
-                  </Link>
-                  <Link
-                    href="/services/mobile"
-                    className="block px-4 py-2 text-gray-700 hover:bg-[#1b323314]"
-                  >
-                    Home B
-                  </Link>
-                  <Link
-                    href="/services/seo"
-                    className="block px-4 py-2 text-gray-700 hover:bg-[#1b323314]"
-                  >
-                    Home C
-                  </Link>
-                </div> */}
               </div>
 
               {/* Dropdown */}
@@ -82,19 +47,6 @@ export default function Header() {
                  <Link href="/pages/about">
                 <button className="text-[var(--lgreen)] text-lg px-6 py-4 flex items-center">
                   About Us
-                  {/* <svg
-                    className="ml-1 w-4 h-4"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M19 9l-7 7-7-7"
-                    />
-                  </svg> */}
                 </button>
                 </Link>
 {/* 
@@ -118,6 +70,12 @@ export default function Header() {
                     About C
                   </Link>
                 </div> */}
+              </div>
+
+              <div className="relative group">
+                <button className="text-[var(--lgreen)] text-lg px-6 py-4 flex items-center">
+                  Industries
+                </button>
               </div>
 
               {/* Dropdown */}
@@ -168,48 +126,6 @@ export default function Header() {
                 </div>
               </div>
 
-              {/* Dropdown */}
-              <div className="relative group">
-                <button className="text-[var(--lgreen)] text-lg px-6 py-4 flex items-center">
-                  Industries
-                  {/* <svg
-                    className="ml-1 w-4 h-4"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M19 9l-7 7-7-7"
-                    />
-                  </svg> */}
-                </button>
-
-                {/* Dropdown Menu
-                 <div className="absolute left-0 mt-0 w-40 bg-[var(--lgreen2)] shadow-lg border border-[#1b323333] rounded-[12px] opacity-0 invisible group-hover:opacity-100 group-hover:visible transition duration-200 overflow-hidden">
-                  <Link
-                    href="/services/web"
-                    className="block px-4 py-2 text-gray-700 hover:bg-[#1b323314]"
-                  >
-                    Case Studies A
-                  </Link>
-                  <Link
-                    href="/services/mobile"
-                    className="block px-4 py-2 text-gray-700 hover:bg-[#1b323314]"
-                  >
-                    Case Studies B
-                  </Link>
-                  <Link
-                    href="/services/seo"
-                    className="block px-4 py-2 text-gray-700 hover:bg-[#1b323314]"
-                  >
-                    Case Studies C
-                  </Link>
-                </div> */}
-              </div>
-              
                <div className="relative group">
                 <button className="text-[var(--lgreen)] text-lg px-6 py-4 flex items-center">
                   Resources
@@ -375,6 +291,26 @@ export default function Header() {
                 <Link href="/services/mobile" className="block py-1 text-[#222)]">Marketing Strategy Consulting</Link>
                 <Link href="/services/seo" className="block py-1 text-[#222)]">Digital & Tech Transformation</Link>
                 <Link href="/services/seo" className="block py-1 text-[#222)]">Revenue & Efficiency Consulting</Link>
+              </div>
+            </details>
+
+            <details className="group py-[16px] px-[20px] mb-0  relative">
+              <summary className="flex justify-center gap-5 items-center cursor-pointer text-[var(--lgreen)] text-lg">
+                Resources
+                <svg
+                  className="w-4 h-4 transition-transform duration-200 group-open:rotate-180"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                </svg>
+              </summary>
+              <div className="mt-2 space-y-1 bg-[var(--lgreen2)] border border-[#1b323333] rounded-[12px] absolute text-center w-[90%] left-1/2 -translate-x-1/2">
+                <Link href="/services/web" className="block py-1 text-[#222)]">Blogs</Link>
+                <Link href="/services/mobile" className="block py-1 text-[#222)]">Downloadable Playbooks</Link>
+                <Link href="/services/seo" className="block py-1 text-[#222)]">Whitepapers & Research Reports</Link>
+                <Link href="/services/seo" className="block py-1 text-[#222)]">Whitepapers & Research Reports</Link>
               </div>
             </details>
 
