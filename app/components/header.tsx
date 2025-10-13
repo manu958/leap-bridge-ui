@@ -80,6 +80,7 @@ export default function Header() {
 
               {/* Dropdown */}
               <div className="relative group ">
+                <Link href="/pages/services">
                 <button className="text-[var(--lgreen)] text-lg px-6 py-4 flex items-center">
                   Services
                   <svg
@@ -96,6 +97,7 @@ export default function Header() {
                     />
                   </svg>
                 </button>
+                </Link>
 
                 {/* Dropdown Menu */}
                  <div className="absolute left-0 mt-0 w-[260px] bg-[var(--lgreen2)] shadow-lg border border-[#1b323333] rounded-[12px] opacity-0 invisible group-hover:opacity-100 group-hover:visible transition duration-200 overflow-hidden">
@@ -259,11 +261,6 @@ export default function Header() {
               <summary className="flex justify-center gap-5 items-center cursor-pointer text-[var(--lgreen)] text-lg">
                 About
               </summary>
-              {/* <div className="mt-2 space-y-1 bg-[var(--lgreen2)] border border-[#1b323333] rounded-[12px] absolute text-center w-[90%] left-1/2 -translate-x-1/2">
-                <Link href="/services/web" className="block py-1 text-[#222)]">About A</Link>
-                <Link href="/services/mobile" className="block py-1 text-[#222)]">About B</Link>
-                <Link href="/services/seo" className="block py-1 text-[#222)]">About C</Link>
-              </div> */}
             </details>
 
             {/* Dropdown - Other */}
