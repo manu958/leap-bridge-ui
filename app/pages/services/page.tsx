@@ -1,9 +1,10 @@
-import ScheduleCallSection from '@/app/components/About/ScheduleCallSection'
+
+import ServiceInsights from '@/app/components/Services/ServiceInsight'
 import React from 'react'
 
 const services = () => {
   return (
-    <ScheduleCallSection/>
+    <><ServiceInsights /></>
   )
 }
 
