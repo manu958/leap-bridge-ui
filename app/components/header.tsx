@@ -258,10 +258,13 @@ export default function Header() {
 
             {/* Dropdown - About */}
             <details className="group py-[16px] px-[20px] mb-0  relative">
+              <Link href="/pages/about">
               <summary className="flex justify-center gap-5 items-center cursor-pointer text-[var(--lgreen)] text-lg">
                 About
               </summary>
+              </Link>
             </details>
+            
 
             {/* Dropdown - Other */}
             <details className="group py-[16px] px-[20px] mb-0  relative">
