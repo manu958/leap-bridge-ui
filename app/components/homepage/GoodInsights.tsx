@@ -14,7 +14,7 @@ const posts = [
   {
     title: "Route-to-Market Optimization",
     description: "Redesign distribution channels to maximize sales and market coverage.",
-    imageSrc: "/assests/header/scrumpage-logos/marketopt.jpg",
+    imageSrc: "/assests/header/images/goodinsights/marketopt.jpg",
   },
   {
     title: "Trade Spend Efficiency",
