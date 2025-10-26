@@ -10,10 +10,11 @@ const ServicesMap = () => {
         {/* Left Column: Text */}
         <div className="md:w-1/2">
 <h2
-  className={`${zodiak.className} text-[32px] text-[#1B3233] md:text-[40px] mb-6`}
+  className={`${zodiak.className} text-[24px] text-[#1B3233] md:text-[40px] mb-6`}
 >
-  <span className="font-bold">Driving Growth</span> Through Transformation
+  <span className="font-semibold md:font-bold">Driving Growth</span> Through Transformation
 </h2>
+
           <p className={`${satoshi.className} text-base md:text-lg text-gray-800 leading-relaxed`}>
             LeapBridge Consulting is a boutique growth and transformation advisory firm helping consumer-facing businesses unlock scale and performance. We specialize in Route-to-Market redesign, sales excellence, and execution-led transformation across FMCG, healthcare, and consumer retail.
             <br /><br />
