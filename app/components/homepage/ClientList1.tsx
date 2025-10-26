@@ -17,7 +17,7 @@ export default function ClientList1() {
             alt="Abbot Logo"
             width={120}
             height={60}
-            className="w-[70px] sm:w-[90px] md:w-[110px] h-auto object-contain abbot-logo"
+            className="w-[70px] sm:w-[90px] md:w-[112px] h-auto object-contain abbot-logo"
           />
           <Image
             src="/assests/header/Website-logos/Cipla_logo.png"
