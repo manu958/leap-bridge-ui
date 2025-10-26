@@ -19,7 +19,7 @@ export default function ClientList1() {
                         alt="Logo 1"
                         width={120}
                         height={60}
-                        className="w-[50px] sm:w-[70px] h-auto object-contain"
+                        className="w-[51px] sm:w-[70px] h-auto object-contain"
                     />
                     <Image
                         src="/assests/header/Website-logos/Cipla_logo.png"
