@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 
-export default function ClientList() {
+export default function ClientList1() {
   return (
     <section className="w-full pt-[60px] md:pt-[60px] pb-0 bg-[#daebe3]">
       <div className="max-w-[1080px] mx-auto px-4 space-y-10 text-center">
