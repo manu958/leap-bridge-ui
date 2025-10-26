@@ -9,9 +9,11 @@ const ServicesMap = () => {
       <div className="max-w-[1300px] mx-auto flex flex-col md:flex-row items-center gap-8">
         {/* Left Column: Text */}
         <div className="md:w-1/2">
-          <h2 className="{`${zodiak.className} text-3xl text-[#1B3233] md:text-4xl mb-6">
-            <span className="font-bold">Driving Growth</span> Through Transformation
-          </h2>
+<h2
+  className={`${zodiak.className} text-[32px] text-[#1B3233] md:text-[40px] mb-6`}
+>
+  <span className="font-bold">Driving Growth</span> Through Transformation
+</h2>
           <p className={`${satoshi.className} text-base md:text-lg text-gray-800 leading-relaxed`}>
             LeapBridge Consulting is a boutique growth and transformation advisory firm helping consumer-facing businesses unlock scale and performance. We specialize in Route-to-Market redesign, sales excellence, and execution-led transformation across FMCG, healthcare, and consumer retail.
             <br /><br />
@@ -24,7 +26,7 @@ const ServicesMap = () => {
         {/* Right Column: Image */}
         <div className="md:w-1/2 flex justify-center md:justify-end">
           <Image
-            src="/assests/header/about section images/vison-mision/missionimg.jpg"
+            src="/assests/header/images/map.jpg"
             alt="Transformation Illustration"
             width={500}
             height={500}
