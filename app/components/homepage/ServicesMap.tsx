@@ -1,28 +1,39 @@
-import React from 'react'
-// import Image from "next/image";
+import React from "react";
+import Image from "next/image";
 import { zodiak } from "@/app/fonts";
+import { satoshi } from "@/app/fonts";
 
 const ServicesMap = () => {
   return (
-    // <section className="relative w-full flex flex-col items-center justify-center bg-[#daebe3]">
-    //   <div className="relative z-10 max-w-[808px] md:py-[170px] md:px-[30px] py-[50px] px-[36px] md:my-[90px] my-[50px] text-center bg-[url('/assests/header/logoimage/map_light_img.svg')] bg-contain bg-center bg-no-repeat">
-    //     <p className={`${zodiak.className} text-[20px] md:text-[33px] font-normal leading-[130%] text-[var(--dgreen)] mx-auto`} >
-    //       Since 1994 WeConsult brings the smartest people together offering
-    //       exceptional consulting services for the biggest players.
-    //     </p>
-    //   </div>
-    // </section>
+    <section className="bg-[#daebe3] py-[120px] px-4 md:px-8">
+      <div className="container mx-auto flex flex-col md:flex-row items-center gap-8">
+        {/* Left Column: Text */}
+        <div className="md:w-1/2">
+          <h2 className="font-satoshi text-3xl text-[#1B3233] md:text-4xl mb-6">
+            <span className="font-bold">Driving Growth</span> Through Transformation
+          </h2>
+          <p className={`${zodiak.className} text-base md:text-lg text-gray-800 leading-relaxed`}>
+            LeapBridge Consulting is a boutique growth and transformation advisory firm helping consumer-facing businesses unlock scale and performance. We specialize in Route-to-Market redesign, sales excellence, and execution-led transformation across FMCG, healthcare, and consumer retail.
+            <br /><br />
+            With over 55 years of combined leadership experience, we bring strategic depth and executional rigor—powered by sales technology and AI-driven insights that enable smarter, faster decisions.
+            <br /><br />
+            From digital sales enablement to channel transformation, we help brands bridge strategy and execution to drive measurable, lasting growth.
+          </p>
+        </div>
 
-    <section className="relative bg-[#daebe3] pt-[120px] pb-[24px]">
-      <div className="text-center bg-[url('/assests/header/logoimage/map_light_img.svg')] bg-top bg-[length:100%_auto] bg-no-repeat w-full mx-auto max-w-[1058px] md:min-h-[545px] min-h-[160px] flex flex-col items-center justify-center">
-        <div className="max-w-[808px] mx-auto">
-          <p className={`${zodiak.className} text-[20px] md:text-[36px] font-normal leading-[130%] text-[var(--dgreen)]`} >
-         Leap Bridge Consultancy delivers exceptional sales process, and digital transformation services to build your future.
-        </p>
+        {/* Right Column: Image */}
+        <div className="md:w-1/2 flex justify-center md:justify-end">
+          <Image
+            src="/assests/header/about section images/vison-mision/missionimg.jpg"
+            alt="Transformation Illustration"
+            width={500}
+            height={500}
+            className="w-full max-w-[500px] h-auto rounded-lg"
+          />
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default ServicesMap
+export default ServicesMap;
