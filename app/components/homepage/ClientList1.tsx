@@ -6,7 +6,7 @@ export default function ClientList1() {
     <section className="w-full pt-[60px] md:pt-[60px] pb-0 bg-[#daebe3]">
       <div className="max-w-[1080px] mx-auto px-4 space-y-10 text-center">
         {/* Heading */}
-        <h2 className="text-gray-800 text-center text-[22px] sm:text-[26px] md:text-[50px] font-normal mb-6 sm:mb-8 md:mb-10 leading-snug">
+        <h2 className="{`${zodiak.className} text-gray-800 text-center text-[22px] sm:text-[26px] md:text-[50px] font-normal mb-6 sm:mb-8 md:mb-10 leading-snug">
           <strong>Combined</strong> Work Experience
         </h2>
 
