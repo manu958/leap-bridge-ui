@@ -1,7 +1,7 @@
 import MainBanner from "./components/homepage/MainBanner";
 import ClientList1 from "./components/homepage/ClientList1";
 import ServicesMap from "./components/homepage/ServicesMap";
-import ClientList from "./components/homepage/ClientList";
+// import ClientList from "./components/homepage/ClientList";
 import ProblemSolv from "./components/homepage/ProblemSolv";
 import GreatResult from "./components/homepage/GreatResult";
 import ScrumPage from "./components/homepage/ScrumPage";
@@ -17,7 +17,7 @@ export default function Home() {
     <MainBanner />
     <ClientList1/>
     <ServicesMap />
-    <ClientList />
+    {/* <ClientList /> */}
     <ProblemSolv />
     <GreatResult />
     <ScrumPage />
