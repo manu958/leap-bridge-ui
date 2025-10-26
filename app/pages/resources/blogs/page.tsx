@@ -1,9 +1,10 @@
+import BlogCard from '@/app/components/Resources/BlogCard'
 import React from 'react'
 
-const page = () => {
+const blogs = () => {
   return (
-    <div>page</div>
+    BlogCard
   )
 }
 
-export default page
+export default blogs

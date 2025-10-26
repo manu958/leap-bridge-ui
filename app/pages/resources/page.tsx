@@ -1,9 +1,10 @@
+import ResourceCard from '@/app/components/Resources/ResourceCard'
 import React from 'react'
 
-const page = () => {
+const resources = () => {
   return (
-    <div>page</div>
+    <><ResourceCard /></>
   )
 }
 
-export default page
+export default resources
