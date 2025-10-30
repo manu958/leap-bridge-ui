@@ -1,7 +1,7 @@
 "use client";
 import React, { useEffect } from "react";
-import { satoshi, zodiak } from "@/app/fonts";
-import Image from "next/image";
+
+
 
 const MainBanner: React.FC = () => {
   useEffect(() => {

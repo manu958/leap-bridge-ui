@@ -1,13 +1,12 @@
 "use client";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { satoshi } from "../fonts";
-import { usePathname } from "next/navigation"; 
+
 
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
-  const pathname = usePathname(); 
   const [activeLink, setActiveLink] = useState("/");
   const handleLinkClick = (link: string) => {
   setActiveLink(link);
@@ -26,15 +25,15 @@ export default function Header() {
   //   const formatted = today.toISOString().split("T")[0];
   //   setMinDate(formatted);
   // }, []);
-   const handleDateChange = (e: { target: { value: any; }; }) => {
-    const selectedDate = e.target.value;
-    const now = new Date();
-    if (selectedDate === now.toISOString().split("T")[0]) {
-      setMinTime(now.toTimeString().slice(0, 5));
-    } else {
-      setMinTime("");
-    }
-  };
+   const handleDateChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+  const selectedDate = e.target.value;
+  const now = new Date();
+  if (selectedDate === now.toISOString().split("T")[0]) {
+    setMinTime(now.toTimeString().slice(0, 5));
+  } else {
+    setMinTime("");
+  }
+};
   
   return (
     

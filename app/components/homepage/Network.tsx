@@ -1,3 +1,4 @@
+import Image from "next/image";
 export const metadata = {
   title: "Network | My Portfolio",
   description:
@@ -12,7 +13,7 @@ export default function NetworkPage() {
         {/* LEFT SIDE: IMAGE */}
         <div className="flex justify-center order-1 md:order-1">
           <div className="border-[8px] border-[#356E54] rounded-xl overflow-hidden">
-            <img
+            <Image
               src="/assests/header/Homepage/network.jpg" 
               alt="Network Efficiency"
               className="w-full max-w-md md:max-w-lg object-cover"

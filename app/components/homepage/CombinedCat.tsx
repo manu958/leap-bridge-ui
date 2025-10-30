@@ -1,3 +1,4 @@
+import Image from "next/image";
 export const metadata = {
   title: "Category | My Portfolio",
   description: "Combined Category Experience",
@@ -87,7 +88,7 @@ export default function CategoryPage() {
                     key={idx}
                     className="flex items-center gap-3 text-gray-700 hover:text-green-800 transition"
                   >
-                    <img
+                    <Image
                       src={item.icon}
                       alt={item.name}
                       className="w-4 h-4 flex-shrink-0"
