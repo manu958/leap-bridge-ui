@@ -51,30 +51,31 @@ const MainBanner: React.FC = () => {
       <div className="absolute top-0 left-0 w-full h-full bg-[var(--dgreen)]/80 z-10"></div>
 
       {/* Main Content */}
-      <div className="relative z-20 flex flex-col items-center px-4 w-full max-w-[1180px]">
+      <div className="relative z-20 flex flex-col items-start justify-end min-h-[600px] w-full max-w-[1600px] mx-auto md:px-[24px] px-[12px]">
         {/* Decorative Bars */}
-        <div className="flex gap-[6px] mb-6 mt-16 md:mt-[118px] justify-center">
+        {/* <div className="flex gap-[6px] mb-6 mt-16 md:mt-[118px] justify-center">
           <span className="w-8 h-8 rounded-full bg-[#CEEAD54D]"></span>
           <span className="w-[52px] h-8 rounded-[40px] bg-[#CEEAD5]"></span>
           <span className="w-8 h-8 rounded-full bg-[#CEEAD54D]"></span>
-        </div>
+        </div> */}
 
         {/* Heading Section */}
-        <div className="heading-home mb-[80px] flex flex-col items-center text-center">
-          <h1
-            className={`${zodiak.className} text-3xl sm:text-5xl md:text-6xl max-w-2xl font-serif font-semibold text-[#DFFFE0] leading-tight heading-h`}
-          >
-           Growth Strategy Partners
-          </h1>
+        <div className="heading-home mb-[80px] flex flex-col items-start text-start">
           <p
-            className={`${satoshi.className} subtitle-h mt-[23px] max-w-2xl text-base sm:text-lg text-[#CEEAD5]`}
+            className="subtitle-h text-start mt-[23px] text-base sm:text-lg text-[#CEEAD5]"
           >
-            We help businesses achieve market growth and boost sales through expert consulting.
+            From Insight to Impact 
           </p>
+          <h1
+            className="text-3xl sm:text-5xl md:text-6xl font-semibold text-[#DFFFE0] leading-tight heading-h"
+          >
+           We Make it Happen
+          </h1>
+          
         </div>
 
         {/* Image Section */}
-        <div className="mainbanner w-full flex justify-center">
+        {/* <div className="mainbanner w-full flex justify-center">
           <Image
             src="/assests/header/images/bannerimg.jpg"
             alt="Main Banner"
@@ -82,7 +83,7 @@ const MainBanner: React.FC = () => {
             height={1000}
             className="banner-pic border-[20px] md:border-[60px] border-[var(--lgreen2)] border-b-0"
           />
-        </div>
+        </div> */}
       </div>
     </div>
   );
