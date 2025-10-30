@@ -1,4 +1,4 @@
-import Image from "next/image";
+// import img from "next/img";
 export const metadata = {
   title: "Business Momentum | My Portfolio",
   description: "How Leap Bridge creates business momentum through GTM Transformation",
@@ -72,11 +72,13 @@ export default function MomentumPage() {
           </div>
         </div>
  
-        {/* RIGHT SIDE: IMAGE */}
+        {/* RIGHT SIDE: img */}
         <div className="flex justify-center">
           <div className="border-[8px] border-[#356E54] rounded-xl overflow-hidden">
-            <Image
-              src="/assests/header/Homepage/momentum1.jpg"
+            <img
+            width={100}
+            height={100}
+              src="/assests/header/Homepage/logospage2/bottom-2.jpg"
               alt="Business Momentum"
               className="w-full max-w-md md:max-w-lg object-cover"
             />

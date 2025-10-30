@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "next/image";
+// import Image from "next/image";
 import { poppins } from "@/app/fonts";
 
 export default function ClientList1() {
@@ -32,7 +32,7 @@ export default function ClientList1() {
               { src: "/assests/header/Website-logos/Reckitt-Benckiser-logo.png", alt: "Reckitt Benckiser" },
             ].map((logo, index) => (
               <div key={index} className="flex justify-center items-center w-[100px] h-auto">
-                <Image
+                <img
                   src={logo.src}
                   alt={logo.alt}
                   width={100}

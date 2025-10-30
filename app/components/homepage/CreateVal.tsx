@@ -1,4 +1,4 @@
-import Image from "next/image";
+// import img from "next/img";
 export const metadata = {
   title: "Our Approach | My Portfolio",
   description: "How we create value through strategic execution",
@@ -34,9 +34,11 @@ export default function ApproachPage() {
             </p>
           </div>
  
-          {/* RIGHT SIDE: IMAGE */}
+          {/* RIGHT SIDE: img */}
           <div className="flex justify-center">
-            <Image
+            <img
+                    width={100}
+                    height={100}
               src="/assests/header/Homepage/momentum.jpg"
               alt="Our Approach Diagram"
               className="w-full max-w-md md:max-w-lg rounded-xl shadow-sm"

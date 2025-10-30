@@ -1,15 +1,15 @@
 "use client";
-import Image from "next/image";
+// import Image from "next/image";
 import Link from "next/link";
  
 export default function Footer() {
   return (
     <footer className="bg-[#18392B] text-white">
       {/* Top Section */}
-      <div className="max-w-7xl mx-auto px-6 md:px-12 py-10 grid grid-cols-1 md:grid-cols-4 gap-10">
+      <div id="contact" className="max-w-7xl mx-auto px-6 md:px-12 py-10 grid grid-cols-1 md:grid-cols-4 gap-10">
         {/* Logo */}
         <div className="flex flex-col items-start">
-          <Image
+          <img
             src="/assests/header/images/logo.svg"
             alt="Leap Bridge Consulting Logo"
             width={180}
@@ -42,7 +42,7 @@ export default function Footer() {
  
           <div className="flex space-x-3 mt-2">
             <Link href="https://www.linkedin.com" target="_blank">
-              <Image
+              <img
                 src="/assests/header/Homepage/linkdin.svg"
                 alt="LinkedIn"
                 width={28}
@@ -51,7 +51,7 @@ export default function Footer() {
               />
             </Link>
             <Link href="https://wa.me/919769100915" target="_blank">
-              <Image
+              <img
                 src="/assests/header/Homepage/whtsapp.svg"
                 alt="WhatsApp"
                 width={28}

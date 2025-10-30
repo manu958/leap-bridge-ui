@@ -1,11 +1,14 @@
 import React from "react";
-import Image from "next/image";
+// import Image from "next/image";
 
 import { poppins } from "@/app/fonts";
 const ServicesMap = () => {
   return (
     <section className="bg-white">
-      <div id="about" className="max-w-7xl mx-auto md:px-[24px] px-[12px] py-16 mx-auto flex flex-col md:flex-row items-start md:items-center gap-10 md:gap-16">
+      <div className="custom_height" id="about">
+
+      </div>
+      <div  className="max-w-7xl mx-auto md:px-[24px] px-[12px] py-16 mx-auto flex flex-col md:flex-row items-start md:items-center gap-10 md:gap-16">
         
         {/* === Left Column (Text) === */}
         <div className="md:w-1/2 w-full">
@@ -55,8 +58,8 @@ const ServicesMap = () => {
         {/* === Right Column (Image) === */}
         <div className="md:w-1/2 w-full flex justify-center md:justify-end">
           <div className="border-[8px] border-[#1B3233] rounded-md p-2 inline-block">
-            <Image
-              src="/assests/header/Homepage/transformation.jpg"
+            <img
+              src="/assests/header/Homepage/logospage2/top-1.jpg"
               alt="Team celebrating growth"
               width={450}
               height={450}

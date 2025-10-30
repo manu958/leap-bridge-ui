@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import Image from "next/image";
+// import Image from "next/image";
 import Link from "next/link";
 import { satoshi } from "../fonts";
 
@@ -43,7 +43,7 @@ export default function Header() {
           <div className="flex justify-between items-center h-[82px]">
             {/* Logo */}
             <Link href="/" className="text-xl font-bold text-gray-800">
-              <Image
+              <img
                 src="/assests/header/images/logo.svg"
                 alt="Logo"
                 width={500}
@@ -217,7 +217,7 @@ export default function Header() {
           {/* Contact Us */}
           <details className="group py-[16px] px-[20px] mb-0 relative">
             <summary className="flex justify-center gap-5 items-center cursor-pointer text-[var(--lgreen)] text-lg" onClick={closeMenu}>
-              Contact Us
+               <Link href="#contact" onClick={closeMenu}>Contact Us</Link>
             </summary>
           </details>
 
