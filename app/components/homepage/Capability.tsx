@@ -6,19 +6,11 @@ export const metadata = {
  
 export default function MomentumPage() {
   return (
-    <section className="w-full bg-[#DEEAE4] py-16 px-6 md:px-12">
+    <section className="w-full bg-[#DEEAE4]  md:pt-16 pb-16 px-6 md:px-12">
       <div className="max-w-7xl w-full mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
         {/* LEFT SIDE: TEXT CONTENT */}
-        <div>
-          {/* Heading */}
-          {/* <h2 className="text-3xl md:text-4xl text-gray-900 mb-4 leading-[40px]">
-            <span className="text-[#356E54] font-normal">
-              Capabilities
-            </span>
-            <br />
-            <span className="font-bold text-gray-900">Business Momentum</span>
-          </h2>
-  */}
+        <div className=" order-2 md:order-1">
+
           {/* Subheading (GTM Transformation Box) */}
           <div className="w-full bg-gradient-to-r from-[#356E54] to-[#DEEAE4] text-white font-semibold py-2 px-6 rounded-md mb-6">
             Capabilities
@@ -68,7 +60,7 @@ export default function MomentumPage() {
         </div>
  
         {/* RIGHT SIDE: IMAGE */}
-        <div className="flex justify-center">
+        <div className="flex justify-center  order-1 md:order-2">
           <div className="border-[8px] border-[#356E54] rounded-xl overflow-hidden">
             <img
               src="/assests/header/Homepage/capability.jpg"

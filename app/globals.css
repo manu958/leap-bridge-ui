@@ -96,9 +96,9 @@ p.text-lg.mb-6.leading-relaxed {
 
 .brdr_topbtm:after {
     content: '';
-    height: 1px;
-    width: 70px;
-    background: black;
+    height:1.5px;
+    width: 60px;
+    background:#707070;
     display: block;
     position: absolute;
     top: 0;
@@ -106,9 +106,9 @@ p.text-lg.mb-6.leading-relaxed {
 }
 .brdr_topbtm:before {
     content: '';
-    height: 1px;
-    width: 70px;
-    background: black;
+    height: 1.5px;
+    width: 60px;
+    background: #707070;
     display: block;
     position: absolute;
     bottom: 0;
@@ -116,6 +116,10 @@ p.text-lg.mb-6.leading-relaxed {
 }
 
 @media (max-width: 768px) {
+.brdr_topbtm:after, .brdr_topbtm:before {
+    display: none;
+}
+
   .bookbox {
     padding: 0% !important; 
     margin-right: 0% !important;        

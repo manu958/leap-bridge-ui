@@ -21,23 +21,23 @@ export default function Footer() {
         {/* Navigation Links */}
         <div className="flex flex-col space-y-2 md:border-r border-dotted border-[#356E54]">
           <Link href="/" className="hover:text-[#9BE3B3] transition">Home</Link>
-          <Link href="/about" className="hover:text-[#9BE3B3] transition">About Us</Link>
-          <Link href="/industries" className="hover:text-[#9BE3B3] transition">Industries</Link>
-          <Link href="/services" className="hover:text-[#9BE3B3] transition">Services</Link>
-          <Link href="/case-studies" className="hover:text-[#9BE3B3] transition">Case Studies</Link>
-          <Link href="/contact" className="hover:text-[#9BE3B3] transition">Contact</Link>
+          <Link href="#about" className="hover:text-[#9BE3B3] transition">About Us</Link>
+          <Link href="#about" className="hover:text-[#9BE3B3] transition">Industries</Link>
+          <Link href="#service" className="hover:text-[#9BE3B3] transition">Services</Link>
+          <Link href="#about" className="hover:text-[#9BE3B3] transition">Case Studies</Link>
+          <Link href="#contact" className="hover:text-[#9BE3B3] transition">Contact</Link>
         </div>
  
         {/* Policies */}
         <div className="flex flex-col space-y-2 md:border-r border-dotted border-[#356E54]">
-          <Link href="/privacy-policy" className="hover:text-[#9BE3B3] transition">Privacy Policy</Link>
-          <Link href="/terms" className="hover:text-[#9BE3B3] transition">Terms & Conditions</Link>
-          <Link href="/cookie-policy" className="hover:text-[#9BE3B3] transition">Cookie Policy</Link>
+          <Link href="" className="hover:text-[#9BE3B3] transition">Privacy Policy</Link>
+          <Link href="" className="hover:text-[#9BE3B3] transition">Terms & Conditions</Link>
+          <Link href="" className="hover:text-[#9BE3B3] transition">Cookie Policy</Link>
         </div>
  
         {/* Contact + Social */}
         <div className="space-y-3">
-          <p className="text-sm">+91-91670 63112,<br />+91 97691 00915</p>
+          <p className="text-sm">+91-91670 63112<br />+91 97691 00915</p>
           <p className="text-sm">connect@leapbridgeconsulting.com</p>
  
           <div className="flex space-x-3 mt-2">
@@ -65,7 +65,7 @@ export default function Footer() {
  
       {/* Bottom Bar */}
       <div className="bg-[#234C3A] text-center py-3 text-sm text-gray-300">
-        Copyright © 2010–2025 Leap Bridge Consulting. All rights reserved.
+        Copyright © 2025 Leap Bridge Consulting. All rights reserved.
       </div>
     </footer>
   );

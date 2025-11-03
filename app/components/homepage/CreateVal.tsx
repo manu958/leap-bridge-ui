@@ -8,7 +8,7 @@ export default function ApproachPage() {
   return (
     <>
       {/* TOP SECTION WITH CURVED BOTTOM */}
-      <section className="relative w-full bg-white py-16 px-6 md:px-12 rounded-b-[40px] shadow-sm">
+      <section className="relative w-full bg-white md:py-16 py-12 px-6 md:px-12 rounded-b-[40px] shadow-sm">
         <div className="max-w-7xl w-full mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
           {/* LEFT SIDE: TEXT CONTENT */}
           <div>
@@ -41,7 +41,7 @@ export default function ApproachPage() {
                     height={100}
               src="/assests/header/Homepage/momentum.jpg"
               alt="Our Approach Diagram"
-              className="w-full max-w-md md:max-w-lg rounded-xl shadow-sm"
+              className="w-full max-w-md md:max-w-lg rounded-xl"
             />
           </div>
         </div>

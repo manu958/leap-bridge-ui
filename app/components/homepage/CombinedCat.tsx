@@ -16,7 +16,7 @@ export default function CategoryPage() {
         { name: "Insect Repellents", icon: "/assests/header/Homepage/logospage2/Image 4.svg" },
         { name: "Body & Adult Diapers", icon: "/assests/header/Homepage/logospage2/Image 5.svg" },
         { name: "Male Grooming", icon: "/assests/header/Homepage/logospage2/Image 6.svg" },
-        { name: "Hair care", icon: "/header/Homepage/logospage2/Image 7.svg" },
+        { name: "Hair care", icon: "/assests/header/Homepage/logospage2/Image 7.svg" },
         { name: "Fem Hygiene", icon: "/assests/header/Homepage/logospage2/Image 8.svg" },
       ],
     },
@@ -51,9 +51,9 @@ export default function CategoryPage() {
  
  
   return (
-    <section id="category" className="container mx-auto px-4 py-12 max-w-7xl">
+    <section id="category" className="container mx-auto px-4 md:py-24 py-12 max-w-7xl">
       <div
-        className="  p-6 md:p-10" 
+        className="" 
         // style={{ backgroundColor: "#DEEAE4" }}
       >
         <h1 className="text-3xl md:text-4xl font-bold text-center mb-10 text-gray-800">
@@ -72,10 +72,10 @@ export default function CategoryPage() {
                 className={`w-full text-white text-center py-2 font-semibold mb-6 heading_text
                 ${
                   i === 0
-                    ? "rounded-l-[30px]"
+                    ? "rounded-l-[30px] rounded-r-[30px] md:rounded-l-[30px] md:rounded-r-none"
                     : i === 1
-                    ? "rounded-none"
-                    : "rounded-r-[30px]"
+                    ? "rounded-l-[30px] rounded-r-[30px] md:rounded-none"
+                    : "rounded-l-[30px] rounded-r-[30px] md:rounded-r-[30px] md:rounded-l-none"
                 }`}
                 style={{ backgroundColor: "#356E54" }}
               >

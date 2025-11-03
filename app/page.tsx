@@ -17,16 +17,6 @@ import DataAnly from "./components/homepage/DataAnly";
 
 import "./globals.css";
 
-
-
-
-
-
-
-
-
-
-
 export default function Home() {
   return (
     <>

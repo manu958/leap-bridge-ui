@@ -7,16 +7,16 @@ export const metadata = {
  
 export default function DataAnly() {
   return (
-    <section className="w-full bg-[#DEEAE4] py-16 px-6 md:px-12">
+    <section className="w-full bg-[#DEEAE4] md:pt-16 pb-16 px-6 md:px-12">
       <div className="max-w-7xl w-full mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
        
         {/* LEFT SIDE: img */}
-        <div className="flex justify-center order-1 md:order-1">
+        <div className="flex justify-center order-2 md:order-1">
           <div className="border-[8px] border-[#356E54] rounded-xl overflow-hidden">
             <img
                     width={100}
                     height={100}
-              src="/assests/header/Homepage/analytics.jpg" // 👈 replace with your actual img
+              src="/assests/header/Homepage/analytics.jpg" 
               alt="Network Efficiency"
               className="w-full max-w-md md:max-w-lg object-cover"
             />

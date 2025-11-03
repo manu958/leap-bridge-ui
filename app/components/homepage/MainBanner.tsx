@@ -25,7 +25,7 @@ const MainBanner: React.FC = () => {
   }, []);
 
   return (
-    <div className="relative w-full h-[100vh] flex items-center justify-center overflow-hidden">
+    <div className="relative w-full md:min-h-[80vh] min-h-[60vh] flex items-end justify-end overflow-hidden">
       {/* YouTube Background Video (Full Width + Height) */}
       <div className="absolute inset-0 z-0 overflow-hidden">
         <iframe
@@ -47,7 +47,7 @@ const MainBanner: React.FC = () => {
       <div className="absolute inset-0 bg-[#1a3d3d]/80 z-10"></div>
 
       {/* Text Content */}
-      <div className="relative z-20 flex flex-col items-start justify-end h-full w-full max-w-[1600px] mx-auto px-[12px] md:px-[24px] pb-[100px]">
+      <div className="relative z-20 flex flex-col items-start justify-end h-full w-full max-w-7xl mx-auto px-[12px] md:px-[24px] pb-[100px]">
         <div className="heading-home flex flex-col items-start text-start">
           <p className="subtitle-h mt-[23px] text-base sm:text-lg text-[#CEEAD5]">
             From Insight to Impact

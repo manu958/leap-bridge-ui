@@ -4,12 +4,12 @@ import { poppins } from "@/app/fonts";
 
 export default function ClientList1() {
   return (
-    <section className="w-full bg-[#ffff] py-[80px] ">
-      <div className="max-w-7xl mx-auto md:px-[24px] px-[12px] py-16 mx-auto flex flex-col md:flex-row items-start justify-between gap-12">
+    <section className="w-full bg-[#ffff]">
+      <div className="max-w-7xl mx-auto md:px-[24px] px-[12px] md:py-16 py-12 mx-auto flex flex-col md:flex-row items-start justify-between gap-12">
         {/* LEFT SIDE – Logos */}
-        <div className="w-full md:w-1/2 bg-white rounded-xl p-6 shadow-sm">
+        <div className="w-full md:w-1/2 bg-white rounded-xl ">
           <h2
-            className={`${poppins.className} text-[#1B3233] text-[28px] sm:text-[32px] md:text-[36px] font-semibold mb-6`}
+            className={`${poppins.className} text-[#1B3233] text-[28px] sm:text-[32px] md:text-[36px] font-semibold mb-6 md:text-start text-center`}
           >
             Exposure Across Iconic{" "}
             <span className="text-[#418B69]">Brands & Organisations</span>
@@ -31,7 +31,7 @@ export default function ClientList1() {
               { src: "/assests/header/Website-logos/parle-Agro.png", alt: "Parle Agro" },
               { src: "/assests/header/Website-logos/Reckitt-Benckiser-logo.png", alt: "Reckitt Benckiser" },
             ].map((logo, index) => (
-              <div key={index} className="flex justify-center items-center w-[100px] h-auto">
+              <div key={index} className="flex justify-center items-center w-[100px] h-auto mx-auto">
                 <img
                   src={logo.src}
                   alt={logo.alt}

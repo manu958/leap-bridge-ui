@@ -7,9 +7,9 @@ export const metadata = {
 export default function MomentumPage() {
   return (
     <section className="w-full bg-[#DEEAE4] py-16 px-6 md:px-12" id="service">
-      <div className="max-w-7xl w-full mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center" >
+      <div className="max-w-7xl w-full mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 " >
         {/* LEFT SIDE: TEXT CONTENT */}
-        <div>
+        <div className="md:order-1 order-2 ">
           {/* Heading */}
           <h2 className="text-3xl md:text-4xl text-gray-900 mb-4 leading-[40px]">
             <span className="text-[#356E54] font-normal">
@@ -73,7 +73,7 @@ export default function MomentumPage() {
         </div>
  
         {/* RIGHT SIDE: img */}
-        <div className="flex justify-center">
+        <div className="flex justify-center  order-1 md:order-2">
           <div className="border-[8px] border-[#356E54] rounded-xl overflow-hidden">
             <img
             width={100}

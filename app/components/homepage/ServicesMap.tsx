@@ -5,10 +5,10 @@ import { poppins } from "@/app/fonts";
 const ServicesMap = () => {
   return (
     <section className="bg-white">
-      <div className="custom_height" id="about">
+      <div className="custom_height hidden md:block" id="about">
 
       </div>
-      <div  className="max-w-7xl mx-auto md:px-[24px] px-[12px] py-16 mx-auto flex flex-col md:flex-row items-start md:items-center gap-10 md:gap-16">
+      <div  className="max-w-7xl mx-auto md:px-[24px] px-[12px] md:py-16 py-12 mx-auto flex flex-col md:flex-row items-start md:items-center gap-10 md:gap-16">
         
         {/* === Left Column (Text) === */}
         <div className="md:w-1/2 w-full">

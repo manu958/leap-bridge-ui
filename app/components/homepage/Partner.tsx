@@ -5,13 +5,13 @@ import { poppins } from "@/app/fonts";
 const WhoWeAre = () => {
   return (
     <section className="bg-[#DAEBE3]">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-[24px] py-12 md:py-16 relative">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-[24px] py-12 md:py-16 relative md:text-start text-center">
 
         {/* === OUTER FLEX === */}
         <div className="flex flex-col md:flex-row gap-12 md:gap-20">
 
           {/* === LEFT SECTION === */}
-          <div className="relative md:w-[40%] border-b md:border-b-0 md:border-r-[1.5px] border-[#1B3233]/40 md:pr-12 brdr_topbtm">
+          <div className="relative md:w-[40%]  md:border-r-[1.5px] border-[#707070]/40 md:pr-12 brdr_topbtm">
             <h2
               className={`${poppins.className} text-[#1B3233] text-3xl sm:text-4xl md:text-5xl font-extrabold mb-6 leading-tight`}
             >
