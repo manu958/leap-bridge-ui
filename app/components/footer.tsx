@@ -1,72 +1,137 @@
 "use client";
-// import Image from "next/image";
+import { useEffect } from "react";
 import Link from "next/link";
- 
+
 export default function Footer() {
+  useEffect(() => {
+    const btn = document.getElementById("scrollTopBtn");
+
+    const toggleVisibility = () => {
+      if (window.scrollY > 200) {
+        btn?.classList.remove("opacity-0", "pointer-events-none");
+        btn?.classList.add("opacity-60");
+      } else {
+        btn?.classList.add("opacity-0", "pointer-events-none");
+        btn?.classList.remove("opacity-60");
+      }
+    };
+
+    window.addEventListener("scroll", toggleVisibility);
+    return () => window.removeEventListener("scroll", toggleVisibility);
+  }, []);
+
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+
   return (
-    <footer className="bg-[#18392B] text-white">
-      {/* Top Section */}
-      <div id="contact" className="max-w-7xl mx-auto px-6 md:px-12 py-10 grid grid-cols-1 md:grid-cols-4 gap-10">
-        {/* Logo */}
-        <div className="flex flex-col items-start">
-          <img
-            src="/assests/header/images/logo.svg"
-            alt="Leap Bridge Consulting Logo"
-            width={180}
-            height={60}
-            className="mb-4"
-          />
-        </div>
- 
-        {/* Navigation Links */}
-        <div className="flex flex-col space-y-2 md:border-r border-dotted border-[#356E54]">
-          <Link href="/" className="hover:text-[#9BE3B3] transition">Home</Link>
-          <Link href="#about" className="hover:text-[#9BE3B3] transition">About Us</Link>
-          <Link href="#about" className="hover:text-[#9BE3B3] transition">Industries</Link>
-          <Link href="#service" className="hover:text-[#9BE3B3] transition">Services</Link>
-          <Link href="#about" className="hover:text-[#9BE3B3] transition">Case Studies</Link>
-          <Link href="#contact" className="hover:text-[#9BE3B3] transition">Contact</Link>
-        </div>
- 
-        {/* Policies */}
-        <div className="flex flex-col space-y-2 md:border-r border-dotted border-[#356E54]">
-          <Link href="" className="hover:text-[#9BE3B3] transition">Privacy Policy</Link>
-          <Link href="" className="hover:text-[#9BE3B3] transition">Terms & Conditions</Link>
-          <Link href="" className="hover:text-[#9BE3B3] transition">Cookie Policy</Link>
-        </div>
- 
-        {/* Contact + Social */}
-        <div className="space-y-3">
-          <p className="text-sm">+91-91670 63112<br />+91 97691 00915</p>
-          <p className="text-sm">connect@leapbridgeconsulting.com</p>
- 
-          <div className="flex space-x-3 mt-2">
-            <Link href="https://www.linkedin.com" target="_blank">
-              <img
-                src="/assests/header/Homepage/linkdin.svg"
-                alt="LinkedIn"
-                width={28}
-                height={28}
-                className="hover:opacity-80 transition"
-              />
+    <>
+      <footer className="bg-[#18392B] text-white">
+        {/* Top Section */}
+        <div
+          id="contact"
+          className="max-w-7xl mx-auto px-6 md:px-12 py-10 grid grid-cols-1 md:grid-cols-4 gap-10"
+        >
+          {/* Logo */}
+          <div className="flex flex-col items-start">
+            <img
+              src="/assests/header/images/logo.svg"
+              alt="Leap Bridge Consulting Logo"
+              width={180}
+              height={60}
+              className="mb-4"
+            />
+          </div>
+
+          {/* Navigation Links */}
+          <div className="flex flex-col space-y-2 md:border-r border-dotted border-[#356E54]">
+            <Link href="/" className="hover:text-[#9BE3B3] transition">
+              Home
             </Link>
-            <Link href="https://wa.me/919769100915" target="_blank">
-              <img
-                src="/assests/header/Homepage/whtsapp.svg"
-                alt="WhatsApp"
-                width={28}
-                height={28}
-                className="hover:opacity-80 transition"
-              />
+            <Link href="#about" className="hover:text-[#9BE3B3] transition">
+              About Us
+            </Link>
+            <Link href="#category" className="hover:text-[#9BE3B3] transition">
+              Category Experience
+            </Link>
+            <Link href="#service" className="hover:text-[#9BE3B3] transition">
+              Services
+            </Link>
+            <Link href="#contact" className="hover:text-[#9BE3B3] transition">
+              Contact Us
             </Link>
           </div>
+
+          {/* Policies */}
+          <div className="flex flex-col space-y-2 md:border-r border-dotted border-[#356E54]">
+            <Link href="" className="hover:text-[#9BE3B3] transition">
+              Privacy Policy
+            </Link>
+            <Link href="" className="hover:text-[#9BE3B3] transition">
+              Terms & Conditions
+            </Link>
+            <Link href="" className="hover:text-[#9BE3B3] transition">
+              Cookie Policy
+            </Link>
+          </div>
+
+          {/* Contact + Social */}
+          <div className="space-y-3">
+            <p className="text-sm hover:text-[#9BE3B3] transition">
+              +91-91670 63112
+              <br />
+              +91 97691 00915
+            </p>
+            <p className="text-sm hover:text-[#9BE3B3] transition">
+              connect@leapbridgeconsulting.com
+            </p>
+
+            <div className="flex space-x-3 mt-2">
+              <Link href="https://www.linkedin.com" target="_blank">
+                <img
+                  src="/assests/header/Homepage/linkdin.svg"
+                  alt="LinkedIn"
+                  width={28}
+                  height={28}
+                  className="hover:opacity-80 transition"
+                />
+              </Link>
+              <Link href="https://wa.me/919769100915" target="_blank">
+                <img
+                  src="/assests/header/Homepage/whtsapp.svg"
+                  alt="WhatsApp"
+                  width={28}
+                  height={28}
+                  className="hover:opacity-80 transition"
+                />
+              </Link>
+            </div>
+          </div>
         </div>
-      </div>
- 
-      {/* Bottom Bar */}
-      <div className="bg-[#234C3A] text-center py-3 text-sm text-gray-300">
-        Copyright © 2025 Leap Bridge Consulting. All rights reserved.
-      </div>
-    </footer>
+
+        {/* Bottom Bar */}
+        <div className="bg-[#234C3A] text-center py-3 text-sm text-gray-300">
+          Copyright © 2025 Leap Bridge Consulting. All rights reserved.
+        </div>
+      </footer>
+
+      {/* Scroll to Top Button */}
+      <button
+  id="scrollTopBtn"
+  onClick={scrollToTop}
+  className="fixed bottom-6 right-6 bg-white border-2 border-[#234C3A] text-[#234C3A] rounded-full w-10 h-10 flex items-center justify-center shadow-lg hover:bg-[#9BE3B3] hover:text-[#18392B] transition opacity-0 pointer-events-none"
+>
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    fill="none"
+    viewBox="0 0 24 24"
+    strokeWidth={2.5}
+    stroke="currentColor"
+    className="w-5 h-5"
+  >
+    <path strokeLinecap="round" strokeLinejoin="round" d="M5 15l7-7 7 7" />
+  </svg>
+</button>
+    </>
   );
 }
